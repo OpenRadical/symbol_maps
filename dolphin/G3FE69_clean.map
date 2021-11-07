@@ -1,0 +1,2017 @@
+.text section layout
+80000100 00000098 80000100 0 system_reset_exception_handler
+80000200 00000098 80000200 0 machine_check_exception_handler
+80000300 000000e0 80000300 0 dsi_exception_handler
+80000400 00000098 80000400 0 isi_exception_handler
+80000500 00000098 80000500 0 external_interrupt_exception_handler
+80000600 00000098 80000600 0 alignment_exception_handler
+80000700 00000098 80000700 0 program_exception_handler
+80000800 00000098 80000800 0 floating_point_unavailable_exception_handler
+80000900 00000098 80000900 0 decrementer_exception_handler
+80000c00 0000001c 80000c00 0 system_call_exception_handler
+80000d00 00000098 80000d00 0 trace_exception_handler
+80000f00 00000098 80000f00 0 performance_monitor_interrupt_handler
+80001300 00000098 80001300 0 instruction_address_breakpoint_exception_handler
+80001400 00000098 80001400 0 system_management_interrupt_handler
+80001700 00000098 80001700 0 thermal_management_interrupt_exception_handler
+80003100 00000030 80003100 0 TRK_memset
+80003130 000000b8 80003130 0 __fill_mem
+800031e8 00000050 800031e8 0 memcpy
+80003238 00000030 80003238 0 TRK_memset
+80003268 00000024 80003268 0 TRK_memcpy
+800051c0 0000002c 800051c0 0 __TRK_reset
+800051ec 00000040 800051ec 0 __check_pad3
+8000522c 0000000c 8000522c 0 __set_debug_bba
+80005238 00000008 80005238 0 WPADGetDpdSensitivity 	wpad.a WPAD.o
+80005240 000001ec 80005240 0 __start
+8000539c 00000090 8000539c 0 __init_registers
+8000542c 000000c0 8000542c 0 __init_data
+800054ec 00000024 800054ec 0 __init_hardware
+80005510 00000034 80005510 0 __flush_cache
+8000566c 00000024 8000566c 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+80005870 00000008 80005870 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80005878 00000008 80005878 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80005d5c 00000014 80005d5c 0 LooseBallAnims::GetDesperationInfo(unsigned int)
+80006028 00000004 80006028 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80006050 00000004 80006050 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80006184 00000004 80006184 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80006188 00000024 80006188 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+800061ac 00000004 800061ac 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800061b0 00000004 800061b0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800061b4 00000004 800061b4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800061b8 00000004 800061b8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8000651c 0000000c 8000651c 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+80006b5c 00000004 80006b5c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80006c1c 00000004 80006c1c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80006c20 00000020 80006c20 0 cPlayer::PostPhysicsUpdate(void)
+80006c40 00000004 80006c40 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80006f94 00000008 80006f94 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80007348 00000020 80007348 0 cPlayer::PostPhysicsUpdate(void)
+80007864 00000024 80007864 0 LessonTickerDoneCB(void)
+80007f3c 00000010 80007f3c 0 THPSimpleGetCurrentFrame
+80007f4c 00000010 80007f4c 0 THPSimpleGetCurrentFrame
+80007f80 00000024 80007f80 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+80008700 00000010 80008700 0 glx_SetLoadCallback(unsigned long (*)(unsigned long))
+80008a50 00000004 80008a50 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80008b00 00000020 80008b00 0 cPlayer::PostPhysicsUpdate(void)
+80008b20 00000004 80008b20 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800090f0 00000024 800090f0 0 glxCopyMatrix(float (&)[4][4], nlMatrix4 &)
+800092c0 00000010 800092c0 0 glx_SetLoadCallback(unsigned long (*)(unsigned long))
+800092d0 00000010 800092d0 0 glx_SetLoadCallback(unsigned long (*)(unsigned long))
+800092e0 00000010 800092e0 0 glx_SetLoadCallback(unsigned long (*)(unsigned long))
+8000c15c 00000004 8000c15c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8000c1a0 00000014 8000c1a0 0 LooseBallAnims::GetDesperationInfo(unsigned int)
+8000c234 00000018 8000c234 0 CARDGetXferredBytes
+8000cc6c 00000004 8000cc6c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8000d00c 00000004 8000d00c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8000e754 00000008 8000e754 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8000e75c 00000008 8000e75c 0 IPCSetBufferLo 	ipc.a ipcMain.o
+8000ebf0 00000020 8000ebf0 0 cPlayer::PostPhysicsUpdate(void)
+8000ec10 00000020 8000ec10 0 cPlayer::PostPhysicsUpdate(void)
+8000ec30 00000020 8000ec30 0 cPlayer::PostPhysicsUpdate(void)
+8000ec7c 00000020 8000ec7c 0 cPlayer::PostPhysicsUpdate(void)
+8000edb4 00000020 8000edb4 0 cPlayer::PostPhysicsUpdate(void)
+8000edd4 00000020 8000edd4 0 cPlayer::PostPhysicsUpdate(void)
+8000ee20 00000020 8000ee20 0 cPlayer::PostPhysicsUpdate(void)
+8000ee40 00000020 8000ee40 0 cPlayer::PostPhysicsUpdate(void)
+8000ee60 00000020 8000ee60 0 cPlayer::PostPhysicsUpdate(void)
+8000ef84 00000020 8000ef84 0 cPlayer::PostPhysicsUpdate(void)
+8000f028 00000024 8000f028 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+8000f428 00000008 8000f428 0 JASDsp::getDSPMixerLevel(void) 	JAudio2.a JASDSPInterface.o
+8000f4f0 00000020 8000f4f0 0 cPlayer::PostPhysicsUpdate(void)
+8000f548 00000020 8000f548 0 cPlayer::PostPhysicsUpdate(void)
+8000f568 00000020 8000f568 0 cPlayer::PostPhysicsUpdate(void)
+8000f588 00000020 8000f588 0 cPlayer::PostPhysicsUpdate(void)
+8000f684 00000020 8000f684 0 cPlayer::PostPhysicsUpdate(void)
+8000f6a4 00000008 8000f6a4 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8000f8d8 00000008 8000f8d8 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8000f964 00000020 8000f964 0 cPlayer::PostPhysicsUpdate(void)
+8000fa08 00000004 8000fa08 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80010100 00000008 80010100 0 IPCSetBufferLo 	ipc.a ipcMain.o
+80010124 00000008 80010124 0 IPCSetBufferLo 	ipc.a ipcMain.o
+800102d0 00000008 800102d0 0 IPCGetBufferLo 	ipc.a ipcMain.o
+800102d8 0000000c 800102d8 0 glSetRasterStateDefaults(void)
+8001c6a4 00000020 8001c6a4 0 cPlayer::PostPhysicsUpdate(void)
+8001c6c4 00000004 8001c6c4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8001c6c8 00000008 8001c6c8 0 IPCSetBufferLo 	ipc.a ipcMain.o
+8001c834 00000010 8001c834 0 nlVector3::Set(float, float, float)
+8001c844 00000024 8001c844 0 SidelineExplodableManager::GetNumExplodables(void)
+8001c8ec 00000024 8001c8ec 0 SidelineExplodableManager::GetNumExplodables(void)
+8001d4b4 00000020 8001d4b4 0 cPlayer::PostPhysicsUpdate(void)
+8001d4d4 00000020 8001d4d4 0 cPlayer::PostPhysicsUpdate(void)
+8001d548 00000004 8001d548 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80022f6c 0000000c 80022f6c 0 ColourBlendScreenTransition::Reset(void)
+80022f78 00000008 80022f78 0 nw4hbm::ut::TextWriterBase<w>::SetCharSpace(float) 	homebuttonLib.a ut_TextWriterBase.o
+80022fac 00000008 80022fac 0 nw4hbm::ut::TextWriterBase<w>::SetCharSpace(float) 	homebuttonLib.a ut_TextWriterBase.o
+80022fb4 00000004 80022fb4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80023e08 00000008 80023e08 0 J3DAnmCluster::getWeight(unsigned short) const 	J3DGraphAnimator.a J3DCluster.o
+80024130 0000000c 80024130 0 FETweener::setDoneCallFunc(void (*)(void *), void *)
+8002573c 00000008 8002573c 0 IPCSetBufferLo 	ipc.a ipcMain.o
+80026a88 0000000c 80026a88 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+80026d50 00000024 80026d50 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+80027a84 0000000c 80027a84 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+8002909c 00000004 8002909c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800290f8 00000010 800290f8 0 THPSimpleGetCurrentFrame
+80029588 00000020 80029588 0 cPlayer::PostPhysicsUpdate(void)
+80029e60 00000010 80029e60 0 AIGetStreamPlayState
+8002a190 00000014 8002a190 0 __OSGetDIConfig
+8002aad0 00000008 8002aad0 0 IPCSetBufferLo 	ipc.a ipcMain.o
+8002aad8 00000008 8002aad8 0 IPCSetBufferLo 	ipc.a ipcMain.o
+8002af04 00000008 8002af04 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8002b0fc 00000004 8002b0fc 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8002b278 00000004 8002b278 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8002b9a0 00000020 8002b9a0 0 cPlayer::PostPhysicsUpdate(void)
+8002b9e8 00000024 8002b9e8 0 SidelineExplodableManager::GetNumExplodables(void)
+8002ba24 0000000c 8002ba24 0 glSetRasterStateDefaults(void)
+8002de94 0000000c 8002de94 0 EmissionController::IsLingering( (void))
+8002e220 00000018 8002e220 0 GLMeshWriterCore::End(void)
+8002e274 00000014 8002e274 0 GetCommonDesireData(eFielderDesireState)
+8002e410 0000000c 8002e410 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+8002f07c 00000008 8002f07c 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8002f250 00000030 8002f250 0 nlInit(void)
+8002f604 00000008 8002f604 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80030eb8 00000004 80030eb8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80032708 0000000c 80032708 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+80033580 00000008 80033580 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80033588 00000008 80033588 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80033590 00000008 80033590 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80033598 00000008 80033598 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8003363c 00000024 8003363c 0 cFielder::EndAction(void)
+80033660 00000024 80033660 0 cFielder::EndAction(void)
+80033a88 00000014 80033a88 0 LooseBallAnims::GetDesperationInfo(unsigned int)
+80033bbc 00000008 80033bbc 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80033bc4 00000008 80033bc4 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80033bdc 0000000c 80033bdc 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+80033be8 0000000c 80033be8 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+80033c04 00000004 80033c04 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80033c88 00000004 80033c88 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80034550 00000008 80034550 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80034644 00000028 80034644 0 BasicSlotPoolHigh<33ListEntry<20AnimAudioEventLookup>>::allocFN(unsigned long)
+8003466c 00000010 8003466c 0 dataARAMDefaultGetInfo
+80034990 00000030 80034990 0 Audio::RemoveDelayedSFX(unsigned long)
+80034c24 00000008 80034c24 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80034c38 00000004 80034c38 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800353cc 00000024 800353cc 0 SidelineExplodableManager::GetNumExplodables(void)
+800353f0 00000020 800353f0 0 cPlayer::PostPhysicsUpdate(void)
+800354f8 00000018 800354f8 0 CARDGetXferredBytes
+800364f8 00000024 800364f8 0 cFielder::EndAction(void)
+8003651c 00000024 8003651c 0 cFielder::EndAction(void)
+800373e4 00000020 800373e4 0 cPlayer::PostPhysicsUpdate(void)
+80037404 00000020 80037404 0 cPlayer::PostPhysicsUpdate(void)
+80037424 00000024 80037424 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+8003752c 00000024 8003752c 0 cFielder::UpdatePlay(float)
+80039ca4 00000004 80039ca4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8003a190 0000000c 8003a190 0 cAIPad::__ct(void)
+8003a578 00000008 8003a578 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8003a5f0 0000000c 8003a5f0 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+8003a5fc 00000020 8003a5fc 0 cPlayer::PostPhysicsUpdate(void)
+8003af14 0000000c 8003af14 0 AXFXSetHooks 	axfx.a AXFXHooks.o
+8003bc88 00000008 8003bc88 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8003bc90 00000004 8003bc90 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8003bd58 00000020 8003bd58 0 cPlayer::PostPhysicsUpdate(void)
+8003c850 00000004 8003c850 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8003c8c0 00000010 8003c8c0 0 cAnimInventory::GetAnim(int)
+8003c8d0 00000014 8003c8d0 0 cAnimInventory::GetEndPhase(int)
+8003c8e4 00000014 8003c8e4 0 cAnimInventory::GetEndPhase(int)
+8003d3c0 00000008 8003d3c0 0 GXInitTexObjUserData 	gx.a GXTexture.o
+8003d3c8 00000010 8003d3c8 0 dGeomDisable
+8003e584 00000008 8003e584 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+8003e60c 00000008 8003e60c 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8003e614 00000008 8003e614 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8003e6c8 00000008 8003e6c8 0 GXInitTexObjUserData 	gx.a GXTexture.o
+8003edc8 00000008 8003edc8 0 GXInitTexObjUserData 	gx.a GXTexture.o
+80040b0c 0000000c 80040b0c 0 systemCallbackFunc(MCCSysEvent)
+80040bb0 00000008 80040bb0 0 GXInitTexObjUserData 	gx.a GXTexture.o
+80040e30 00000020 80040e30 0 ShotMeter::Reset(void)
+80041234 0000000c 80041234 0 systemCallbackFunc(MCCSysEvent)
+80046134 00000038 80046134 0 DrawableModel::Draw(void)
+8004616c 00000038 8004616c 0 DrawableModel::Draw(void)
+800461a4 00000038 800461a4 0 DrawableModel::Draw(void)
+8004655c 00000034 8004655c 0 cCharacter::IsPlayingEffect( (EffectsGroup *))
+800468d0 00000038 800468d0 0 DrawableModel::Draw(void)
+80046930 00000014 80046930 0 FormationPos::__ct(void)
+80046944 00000008 80046944 0 IPCSetBufferLo 	ipc.a ipcMain.o
+8004694c 00000008 8004694c 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80046dd8 00000010 80046dd8 0 dGeomEnable
+80046de8 00000008 80046de8 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+800474c0 00000024 800474c0 0 cFielder::UpdatePlay(float)
+8004794c 00000010 8004794c 0 dGeomEnable
+8004795c 0000000c 8004795c 0 GXGetTexObjWrapT 	gx.a GXTexture.o
+8004c134 00000004 8004c134 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8004d090 00000008 8004d090 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8004d0e4 00000008 8004d0e4 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8004d130 00000008 8004d130 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8004d17c 00000008 8004d17c 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8004d22c 00000008 8004d22c 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8004d234 0000000c 8004d234 0 DrawableCharacter::GetAnimController( (void))
+8004d328 0000000c 8004d328 0 systemCallbackFunc(MCCSysEvent)
+8004d3d4 0000000c 8004d3d4 0 systemCallbackFunc(MCCSysEvent)
+8004d560 0000000c 8004d560 0 systemCallbackFunc(MCCSysEvent)
+8004d56c 0000000c 8004d56c 0 systemCallbackFunc(MCCSysEvent)
+8004d58c 0000000c 8004d58c 0 systemCallbackFunc(MCCSysEvent)
+8004d598 0000000c 8004d598 0 systemCallbackFunc(MCCSysEvent)
+8004d5a4 0000000c 8004d5a4 0 nlTaskManager::SetTimeDilation(float)
+8004d5b0 0000000c 8004d5b0 0 nlTaskManager::SetTimeDilation(float)
+8004d850 00000018 8004d850 0 CARDGetXferredBytes
+8004d868 00000018 8004d868 0 CARDGetXferredBytes
+8004e014 00000020 8004e014 0 cPlayer::PostPhysicsUpdate(void)
+8004ea00 00000014 8004ea00 0 LooseBallAnims::GetDesperationInfo(unsigned int)
+8004fb9c 00000004 8004fb9c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8004fba0 00000004 8004fba0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8004fca0 00000004 8004fca0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8004fca4 0000000c 8004fca4 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+8004fd1c 00000034 8004fd1c 0 cCharacter::IsPlayingEffect( (EffectsGroup *))
+8004fd9c 00000034 8004fd9c 0 cCharacter::IsPlayingEffect( (EffectsGroup *))
+80050068 00000020 80050068 0 cPlayer::PostPhysicsUpdate(void)
+80050088 00000008 80050088 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+800506f0 00000008 800506f0 0 IPCSetBufferLo 	ipc.a ipcMain.o
+80050704 00000008 80050704 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8005070c 00000008 8005070c 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80050714 00000008 80050714 0 IPCSetBufferLo 	ipc.a ipcMain.o
+8005071c 00000008 8005071c 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80050f24 00000004 80050f24 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80052a1c 00000018 80052a1c 0 EXIGetState
+80059988 00000010 80059988 0 VMBASEGetVirtualAddrFromPageInMRAM
+8005bd68 00000028 8005bd68 0 glxSwapWaitDrawDone(void)
+8005be8c 00000010 8005be8c 0 VMBASEGetVirtualAddrFromPageInMRAM
+8005c5b0 00000004 8005c5b0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8005c74c 00000008 8005c74c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8005c9cc 00000020 8005c9cc 0 cPlayer::PostPhysicsUpdate(void)
+8005fe3c 00000004 8005fe3c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80060b54 00000008 80060b54 0 IPCSetBufferLo 	ipc.a ipcMain.o
+800626e8 0000002c 800626e8 0 glxSwapSetBlack(void)
+80062714 00000028 80062714 0 glEndFrame(void)
+80068220 00000010 80068220 0 JASSeqCtrl::clrIntrMask(unsigned long) 	JAudio2.a JASSeqCtrl.o
+80068924 00000004 80068924 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80068eb8 00000008 80068eb8 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80068f5c 00000010 80068f5c 0 nlListContainer<P8SaveData>::__ct(void)
+80069760 00000008 80069760 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8006a848 00000008 8006a848 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8006a95c 00000020 8006a95c 0 cPlayer::PostPhysicsUpdate(void)
+8006a97c 00000010 8006a97c 0 cGameSFX::Init(void)
+8006ad6c 00000004 8006ad6c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8006b9ac 00000010 8006b9ac 0 __VIResetSIIdle 	vi.a vi.o
+8006bbd4 00000004 8006bbd4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8006bc14 0000000c 8006bc14 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+8006bc20 00000008 8006bc20 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8006bc28 00000008 8006bc28 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8006cc68 00000034 8006cc68 0 cCharacter::IsPlayingEffect( (EffectsGroup *))
+800700fc 00000004 800700fc 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80070100 00000004 80070100 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80070104 00000024 80070104 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+80070168 00000008 80070168 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80070170 00000014 80070170 0 LooseBallAnims::GetDesperationInfo(unsigned int)
+8007035c 00000008 8007035c 0 IPCSetBufferLo 	ipc.a ipcMain.o
+80070888 00000014 80070888 0 hwGetSampleExtraData
+80070b80 00000008 80070b80 0 GXInitTexObjUserData 	gx.a GXTexture.o
+80072eb8 00000030 80072eb8 0 MWEnterCriticalSection
+800774d8 00000004 800774d8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8007a054 00000004 8007a054 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8007c184 0000000c 8007c184 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+8007c598 00000004 8007c598 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8007c780 00000020 8007c780 0 ParticleSystem::AddView(eGLView)
+8007ecbc 00000010 8007ecbc 0 cCameraManager::PushWorldUpVector(void)
+800824ac 00000028 800824ac 0 TRKNubWelcome
+8008271c 00000020 8008271c 0 cPlayer::PostPhysicsUpdate(void)
+80082838 00000024 80082838 0 cFielder::UpdatePlay(float)
+80082d88 0000000c 80082d88 0 DrawableCharacter::GetAnimController( (void))
+80086fe8 00000004 80086fe8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800873ec 00000008 800873ec 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8008805c 00000028 8008805c 0 TRKNubWelcome
+800880b0 00000028 800880b0 0 TRKNubWelcome
+80088e88 00000004 80088e88 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8008bb9c 00000020 8008bb9c 0 cPlayer::PostPhysicsUpdate(void)
+8008bbbc 00000014 8008bbbc 0 GetCommonDesireData(eFielderDesireState)
+8008ceb8 00000024 8008ceb8 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+8009328c 00000014 8009328c 0 GetCommonDesireData(eFielderDesireState)
+800964cc 00000004 800964cc 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80097f8c 00000014 80097f8c 0 GetCommonDesireData(eFielderDesireState)
+8009b904 0000000c 8009b904 0 GetOneTimerLeadGroundContactAnims(void)
+8009b9c0 00000004 8009b9c0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8009c164 00000008 8009c164 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8009c2e0 00000008 8009c2e0 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8009c2e8 00000008 8009c2e8 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+8009d080 00000008 8009d080 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8009d088 00000004 8009d088 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8009d08c 00000004 8009d08c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8009fe98 00000014 8009fe98 0 dVector4Set(float *, float, float, float, float)
+800a1328 00000004 800a1328 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800a132c 00000004 800a132c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800a2088 00000008 800a2088 0 IPCGetBufferLo 	ipc.a ipcMain.o
+800a22e8 0000000c 800a22e8 0 systemCallbackFunc(MCCSysEvent)
+800a23b0 0000000c 800a23b0 0 nlTaskManager::SetTimeDilation(float)
+800a26cc 00000008 800a26cc 0 IPCGetBufferLo 	ipc.a ipcMain.o
+800a3b88 00000008 800a3b88 0 IPCGetBufferLo 	ipc.a ipcMain.o
+800a3b90 00000008 800a3b90 0 IPCSetBufferLo 	ipc.a ipcMain.o
+800a7258 00000008 800a7258 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+800a8420 00000004 800a8420 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800a9cd4 0000000c 800a9cd4 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+800a9ee4 00000024 800a9ee4 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+800a9f58 0000002c 800a9f58 0 cCharacter::UpdateBlinking(float)
+800aaffc 00000004 800aaffc 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800ab6c8 0000000c 800ab6c8 0 glSetRasterStateDefaults(void)
+800ab6d4 00000008 800ab6d4 0 IPCGetBufferLo 	ipc.a ipcMain.o
+800ab6dc 00000008 800ab6dc 0 IPCSetBufferLo 	ipc.a ipcMain.o
+800acacc 00000008 800acacc 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+800acc1c 00000008 800acc1c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+800ad944 00000008 800ad944 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+800ad94c 00000008 800ad94c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+800ad954 00000008 800ad954 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+800ad95c 00000008 800ad95c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+800ad964 00000004 800ad964 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800ad968 00000008 800ad968 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+800adc44 00000004 800adc44 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800b1aa0 00000004 800b1aa0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800b69f4 00000004 800b69f4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800b9df8 00000010 800b9df8 0 THPSimpleGetCurrentFrame
+800b9e08 00000010 800b9e08 0 THPSimpleGetCurrentFrame
+800b9e18 00000008 800b9e18 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+800ba4a0 00000010 800ba4a0 0 Increment<Q29CrowdMood10CROWD_MOOD>(CrowdMood::CROWD_MOOD &)
+800ba4b0 00000010 800ba4b0 0 Increment<Q29CrowdMood10CROWD_MOOD>(CrowdMood::CROWD_MOOD &)
+800ba4c0 00000010 800ba4c0 0 Increment<Q29CrowdMood10CROWD_MOOD>(CrowdMood::CROWD_MOOD &)
+800ba4d0 00000010 800ba4d0 0 Increment<Q29CrowdMood10CROWD_MOOD>(CrowdMood::CROWD_MOOD &)
+800ba4e0 00000010 800ba4e0 0 Increment<Q29CrowdMood10CROWD_MOOD>(CrowdMood::CROWD_MOOD &)
+800ba4f0 00000010 800ba4f0 0 Increment<Q29CrowdMood10CROWD_MOOD>(CrowdMood::CROWD_MOOD &)
+800bc3c0 0000000c 800bc3c0 0 cAIPad::__ct(void)
+800bc540 00000004 800bc540 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800bd070 00000004 800bd070 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800c87f0 00000004 800c87f0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800c87f4 00000004 800c87f4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800c87f8 00000004 800c87f8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800c95b8 00000020 800c95b8 0 cPlayer::PostPhysicsUpdate(void)
+800c95d8 00000020 800c95d8 0 cPlayer::PostPhysicsUpdate(void)
+800cb7c8 00000020 800cb7c8 0 cPlayer::PostPhysicsUpdate(void)
+800cc304 00000004 800cc304 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800cc340 00000024 800cc340 0 LessonTickerDoneCB(void)
+800cc498 00000004 800cc498 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800cdb08 00000014 800cdb08 0 GetCommonDesireData(eFielderDesireState)
+800cdb94 00000020 800cdb94 0 cPlayer::PostPhysicsUpdate(void)
+800ce078 00000004 800ce078 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800d1774 00000020 800d1774 0 cPlayer::PostPhysicsUpdate(void)
+800d3548 00000004 800d3548 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800d4738 00000004 800d4738 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800d5670 00000004 800d5670 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800d5674 00000004 800d5674 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800d58d4 00000008 800d58d4 0 GXInitTexObjUserData 	gx.a GXTexture.o
+800dadf0 00000004 800dadf0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800db5dc 00000008 800db5dc 0 IPCSetBufferLo 	ipc.a ipcMain.o
+800dc7bc 00000004 800dc7bc 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800e34d8 0000000c 800e34d8 0 cAIPad::__ct(void)
+800e3fb8 00000024 800e3fb8 0 cPlayer::IsCaptain( (void))
+800e3fdc 00000024 800e3fdc 0 cPlayer::IsCaptain( (void))
+800e43e8 0000001c 800e43e8 0 ModeledScreenTransition::Time( (void))
+800e669c 00000004 800e669c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800e7064 0000000c 800e7064 0 systemCallbackFunc(MCCSysEvent)
+800e7410 0000000c 800e7410 0 nlTaskManager::SetTimeDilation(float)
+800e741c 0000000c 800e741c 0 systemCallbackFunc(MCCSysEvent)
+800e7574 00000004 800e7574 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800ea130 00000008 800ea130 0 nw4hbm::ut::TextWriterBase<w>::SetCharSpace(float) 	homebuttonLib.a ut_TextWriterBase.o
+800ebb4c 00000004 800ebb4c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800ec2e4 00000010 800ec2e4 0 JASDsp::getDSPHandle(int) 	JAudio2.a JASDSPInterface.o
+800edcd0 00000024 800edcd0 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+800edcf4 00000020 800edcf4 0 cPlayer::PostPhysicsUpdate(void)
+800ee2f0 00000020 800ee2f0 0 cPlayer::PostPhysicsUpdate(void)
+800f0d9c 00000004 800f0d9c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800f153c 00000004 800f153c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800f1f0c 00000008 800f1f0c 0 IPCSetBufferLo 	ipc.a ipcMain.o
+800f20d4 00000004 800f20d4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800f20d8 00000004 800f20d8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800f20dc 00000004 800f20dc 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800f2f40 0000000c 800f2f40 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+800f36ec 00000004 800f36ec 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800f36f0 00000024 800f36f0 0 LessonTickerDoneCB(void)
+800f3748 00000020 800f3748 0 cPlayer::PostPhysicsUpdate(void)
+800f718c 00000024 800f718c 0 cFielder::EndAction(void)
+800f71b0 00000024 800f71b0 0 cFielder::EndAction(void)
+800f838c 00000004 800f838c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800f9b08 00000004 800f9b08 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800fc444 00000004 800fc444 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800fd5c4 0000000c 800fd5c4 0 GXGetTexObjWrapT 	gx.a GXTexture.o
+800fdc6c 00000004 800fdc6c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800fdcac 00000020 800fdcac 0 cPlayer::PostPhysicsUpdate(void)
+800fdccc 00000004 800fdccc 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+800fdcd0 00000008 800fdcd0 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+800ff9a4 00000004 800ff9a4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80102b8c 00000004 80102b8c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8010382c 00000004 8010382c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80103860 00000004 80103860 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80103864 00000004 80103864 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80103868 00000004 80103868 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801042e0 0000002c 801042e0 0 btu_init_core 	bte.a btu_init.o
+80109020 00000004 80109020 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8010e690 00000018 8010e690 0 CARDGetXferredBytes
+80114ef8 00000004 80114ef8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80119210 0000000c 80119210 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+8011b92c 00000020 8011b92c 0 cPlayer::PostPhysicsUpdate(void)
+8011d660 00000004 8011d660 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8011d710 0000000c 8011d710 0 __set_debug_bba
+8011daf8 00000004 8011daf8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80125608 00000004 80125608 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8012b274 00000014 8012b274 0 Jumbotron::StopPlaying(void)
+8012b2c8 00000010 8012b2c8 0 JMessage::TSequenceProcessor::on_branch_register(void const *(*)(JMessage::TSequenceProcessor const *, unsigned long), void con
+8012e000 00000038 8012e000 0 DrawableModel::Draw(void)
+8012ef14 00000024 8012ef14 0 LessonTickerDoneCB(void)
+8012f588 00000010 8012f588 0 nlVector3::Set(float, float, float)
+8012fa34 00000020 8012fa34 0 cPlayer::PostPhysicsUpdate(void)
+8012fb70 00000020 8012fb70 0 cPlayer::PostPhysicsUpdate(void)
+8012fbf4 00000020 8012fbf4 0 cPlayer::PostPhysicsUpdate(void)
+80130b90 00000044 80130b90 0 PSMTX44Copy
+80130bd4 00000104 80130bd4 0 PSMTX44Concat
+80130cd8 00000064 80130cd8 0 PSMTX44Transpose
+801333cc 00000008 801333cc 0 IPCSetBufferLo 	ipc.a ipcMain.o
+8013381c 00000020 8013381c 0 cPlayer::PostPhysicsUpdate(void)
+80133bcc 00000008 80133bcc 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+80133e48 0000000c 80133e48 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+801342e0 00000020 801342e0 0 cPlayer::PostPhysicsUpdate(void)
+801389a8 00000008 801389a8 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8013943c 00000028 8013943c 0 BasicSlotPoolHigh<33ListEntry<20AnimAudioEventLookup>>::allocFN(unsigned long)
+8013a3e8 00000008 8013a3e8 0 J3DAnmCluster::getWeight(unsigned short) const 	J3DGraphAnimator.a J3DCluster.o
+8013d794 00000008 8013d794 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8013e324 00000008 8013e324 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8013fa80 00000008 8013fa80 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80140968 0000000c 80140968 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+801428e4 00000008 801428e4 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80142b50 00000008 80142b50 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+801444f4 0000000c 801444f4 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+80144500 00000020 80144500 0 cPlayer::PostPhysicsUpdate(void)
+80144794 00000004 80144794 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80144834 00000010 80144834 0 VMBASEGetVirtualAddrFromPageInMRAM
+80146650 00000010 80146650 0 AVLTreeBase<Ul,12FuzzyVariant,48BasicSlotPool<31AVLTreeEntry<Ul,12FuzzyVariant>>,21DefaultKeyCompare<Ul>>::DeleteEntry(AVLTreeE
+8014a0cc 00000024 8014a0cc 0 cFielder::EndAction(void)
+80157f04 00000004 80157f04 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80159fac 0000000c 80159fac 0 AnimatedModelExplodable::GetWorldMatrix( (void))
+80159fb8 0000000c 80159fb8 0 AnimatedModelExplodable::GetWorldMatrix( (void))
+80159ff4 0000000c 80159ff4 0 DrawableCharacter::GetAnimController( (void))
+8015ac78 0000000c 8015ac78 0 AnimatedModelExplodable::GetWorldMatrix( (void))
+8015f9c8 00000014 8015f9c8 0 GetCommonDesireData(eFielderDesireState)
+80164684 00000008 80164684 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8016468c 00000004 8016468c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80164690 00000004 80164690 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80164af0 00000020 80164af0 0 cPlayer::PostPhysicsUpdate(void)
+80165728 00000008 80165728 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+801659c4 00000004 801659c4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8016c590 00000004 8016c590 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8016e000 00000010 8016e000 0 glx_SetGridMode(bool)
+8016e178 00000010 8016e178 0 glx_SetGridMode(bool)
+8016e188 00000020 8016e188 0 cPlayer::PostPhysicsUpdate(void)
+8016e1d4 00000024 8016e1d4 0 LessonTickerDoneCB(void)
+8016e51c 0000000c 8016e51c 0 __set_debug_bba
+8016e84c 00000004 8016e84c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8016e8a4 00000008 8016e8a4 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8016ef70 00000008 8016ef70 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8016efe4 00000004 8016efe4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8016efe8 00000008 8016efe8 0 IPCSetBufferLo 	ipc.a ipcMain.o
+8016eff0 00000008 8016eff0 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8016eff8 0000000c 8016eff8 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+8016f004 00000008 8016f004 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80171f7c 00000020 80171f7c 0 cPlayer::PostPhysicsUpdate(void)
+80172088 00000020 80172088 0 cPlayer::PostPhysicsUpdate(void)
+80172f18 00000010 80172f18 0 glx_SetGridMode(bool)
+801742a8 00000010 801742a8 0 glx_SetLoadCallback(unsigned long (*)(unsigned long))
+801742b8 0000000c 801742b8 0 glSetRasterStateDefaults(void)
+801742c4 0000000c 801742c4 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+801742d0 00000008 801742d0 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8017488c 00000004 8017488c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80174890 00000004 80174890 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801768ac 00000004 801768ac 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8017b0c0 0000000c 8017b0c0 0 glSetRasterStateDefaults(void)
+8017b0cc 0000000c 8017b0cc 0 glSetRasterStateDefaults(void)
+8017b1cc 0000000c 8017b1cc 0 glSetRasterStateDefaults(void)
+8017b364 0000002c 8017b364 0 MoviePlayerScene::PlayScreenBackSFX(void)
+8017bbe4 0000002c 8017bbe4 0 GCSO_Alloc(unsigned long, long)
+8017c330 00000024 8017c330 0 ListContainerBase<P6cSAnim,33NewAdapter<19ListEntry<P6cSAnim>>>::DeleteEntry(ListEntry<P6cSAnim> *)
+8017c354 00000004 8017c354 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8017c358 00000004 8017c358 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8017c430 00000024 8017c430 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+8017c470 00000004 8017c470 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8017c8dc 00000004 8017c8dc 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8017d130 00000004 8017d130 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8017d730 00000004 8017d730 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8017da24 0000000c 8017da24 0 glSetRasterStateDefaults(void)
+8017da54 00000010 8017da54 0 glx_GetFreeMemory(void)
+8017da64 00000008 8017da64 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8017da6c 00000024 8017da6c 0 cFielder::EndAction(void)
+8017da90 00000020 8017da90 0 cPlayer::PostPhysicsUpdate(void)
+8017db80 00000010 8017db80 0 glx_SetGridMode(bool)
+8017e02c 00000008 8017e02c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8017e034 00000024 8017e034 0 LexicalCast<PCc,f>(float &)
+8017f234 0000000c 8017f234 0 AXFXSetHooks 	axfx.a AXFXHooks.o
+80180434 00000008 80180434 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80181884 00000008 80181884 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80181a70 00000004 80181a70 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80183984 00000024 80183984 0 ListContainerBase<P6cSAnim,33NewAdapter<19ListEntry<P6cSAnim>>>::DeleteEntry(ListEntry<P6cSAnim> *)
+80183f80 0000000c 80183f80 0 GoalOverlay::SceneCreated(void)
+80183f8c 0000000c 80183f8c 0 __set_debug_bba
+80183f98 00000010 80183f98 0 cCameraManager::PushWorldUpVector(void)
+80184bdc 00000010 80184bdc 0 glx_GetFreeMemory(void)
+801853b4 00000024 801853b4 0 LexicalCast<PCc,f>(float &)
+801859a4 00000004 801859a4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80186a94 00000004 80186a94 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80186a98 00000008 80186a98 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80186ac4 00000008 80186ac4 0 bta_sys_set_trace_level 	bte.a bta_sys_main.o
+8018758c 00000004 8018758c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80187820 00000004 80187820 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80187824 00000028 80187824 0 glxSwapWaitDrawDone(void)
+80187900 00000024 80187900 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+8018897c 00000004 8018897c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80189898 00000004 80189898 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80189be4 00000020 80189be4 0 cPlayer::PostPhysicsUpdate(void)
+8018b6c8 0000002c 8018b6c8 0 StopDisplayingElectricFence(void)
+8018b6f4 00000004 8018b6f4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8018b9b0 00000024 8018b9b0 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+8018b9d4 00000024 8018b9d4 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+8018ba30 00000024 8018ba30 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+8018cbc0 00000008 8018cbc0 0 __CARDGetFontEncode 	card.a CARDBios.o
+8018cbc8 00000004 8018cbc8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8018cbcc 00000004 8018cbcc 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8018e008 00000020 8018e008 0 cPlayer::PostPhysicsUpdate(void)
+8018e214 00000024 8018e214 0 LessonTickerDoneCB(void)
+8018e3b8 00000004 8018e3b8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8018e598 00000024 8018e598 0 LessonTickerDoneCB(void)
+8018ec78 0000002c 8018ec78 0 hidh_conn_dereg 	bte.a hidh_conn.o
+8018f32c 00000008 8018f32c 0 IPCSetBufferLo 	ipc.a ipcMain.o
+8018fba8 00000004 8018fba8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8018fbac 00000004 8018fbac 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8018fbf8 00000004 8018fbf8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80190630 00000014 80190630 0 THPSimpleAudioStop
+80190d00 00000048 80190d00 0 THPSimpleGetVideoInfo
+80190d6c 00000024 80190d6c 0 THPSimpleGetTotalFrame
+80190d90 00000178 80190d90 0 THPAudioMixCallback(void)
+80192348 0000000c 80192348 0 EmissionController::IsLingering( (void))
+80192fb0 00000024 80192fb0 0 glxCopyMatrix(float (&)[4][4], nlMatrix4 &)
+80197508 00000028 80197508 0 BasicSlotPoolHigh<33ListEntry<20AnimAudioEventLookup>>::allocFN(unsigned long)
+801a10b0 00000014 801a10b0 0 LooseBallAnims::GetDesperationInfo(unsigned int)
+801a13dc 00000004 801a13dc 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801a15fc 00000020 801a15fc 0 cPlayer::PostPhysicsUpdate(void)
+801a2150 00000004 801a2150 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801a30ac 00000010 801a30ac 0 THPSimpleGetCurrentFrame
+801a30bc 00000010 801a30bc 0 TRKTargetSetInputPendingPtr
+801a3154 00000004 801a3154 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801a3158 00000004 801a3158 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801a315c 00000004 801a315c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801a3160 00000020 801a3160 0 cPlayer::PostPhysicsUpdate(void)
+801a3404 00000024 801a3404 0 glxCopyMatrix(float (&)[4][4], nlMatrix4 &)
+801a3d24 0000000c 801a3d24 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+801a503c 00000004 801a503c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801a73c8 0000002c 801a73c8 0 cCharacter::UpdateBlinking(float)
+801a80ac 00000024 801a80ac 0 LessonTickerDoneCB(void)
+801a80d0 00000024 801a80d0 0 LessonTickerDoneCB(void)
+801a80f4 00000028 801a80f4 0 BasicSlotPoolHigh<33ListEntry<20AnimAudioEventLookup>>::allocFN(unsigned long)
+801a811c 00000028 801a811c 0 BasicSlotPoolHigh<33ListEntry<20AnimAudioEventLookup>>::allocFN(unsigned long)
+801a8468 00000010 801a8468 0 dGeomEnable
+801a8608 00000020 801a8608 0 cPlayer::PostPhysicsUpdate(void)
+801a87d8 00000008 801a87d8 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+801a92b4 00000034 801a92b4 0 cCharacter::IsPlayingEffect( (EffectsGroup *))
+801a936c 0000000c 801a936c 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+801a9378 0000000c 801a9378 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+801aa9f0 00000020 801aa9f0 0 cPlayer::PostPhysicsUpdate(void)
+801afb90 00000004 801afb90 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801b09ac 00000004 801b09ac 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801b5de0 00000004 801b5de0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801b6518 00000004 801b6518 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801b7e74 00000008 801b7e74 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+801bbb28 00000024 801bbb28 0 LessonTickerDoneCB(void)
+801bbb9c 00000024 801bbb9c 0 LessonTickerDoneCB(void)
+801bbc10 00000024 801bbc10 0 LessonTickerDoneCB(void)
+801bbc84 00000024 801bbc84 0 LessonTickerDoneCB(void)
+801bbcf8 00000024 801bbcf8 0 LessonTickerDoneCB(void)
+801bbd6c 00000024 801bbd6c 0 LessonTickerDoneCB(void)
+801bbde0 00000024 801bbde0 0 LessonTickerDoneCB(void)
+801bbe54 00000024 801bbe54 0 LessonTickerDoneCB(void)
+801bbec8 00000024 801bbec8 0 LessonTickerDoneCB(void)
+801bbf3c 00000024 801bbf3c 0 LessonTickerDoneCB(void)
+801bbfb0 00000024 801bbfb0 0 LessonTickerDoneCB(void)
+801bc024 00000024 801bc024 0 LessonTickerDoneCB(void)
+801bc098 00000024 801bc098 0 LessonTickerDoneCB(void)
+801bc10c 00000024 801bc10c 0 LessonTickerDoneCB(void)
+801bc180 00000024 801bc180 0 LessonTickerDoneCB(void)
+801bc1f4 00000024 801bc1f4 0 LessonTickerDoneCB(void)
+801bc268 00000024 801bc268 0 LessonTickerDoneCB(void)
+801bc2dc 00000024 801bc2dc 0 LessonTickerDoneCB(void)
+801bc350 00000024 801bc350 0 LessonTickerDoneCB(void)
+801bc3c4 00000024 801bc3c4 0 LessonTickerDoneCB(void)
+801bc438 00000024 801bc438 0 LessonTickerDoneCB(void)
+801bc4ac 00000024 801bc4ac 0 LessonTickerDoneCB(void)
+801bc520 00000024 801bc520 0 LessonTickerDoneCB(void)
+801bc594 00000024 801bc594 0 LessonTickerDoneCB(void)
+801bc608 00000024 801bc608 0 LessonTickerDoneCB(void)
+801bc67c 00000024 801bc67c 0 LessonTickerDoneCB(void)
+801bc6f0 00000024 801bc6f0 0 LessonTickerDoneCB(void)
+801bc764 00000024 801bc764 0 LessonTickerDoneCB(void)
+801bc7d8 00000024 801bc7d8 0 LessonTickerDoneCB(void)
+801bc84c 00000024 801bc84c 0 LessonTickerDoneCB(void)
+801bc8c0 00000024 801bc8c0 0 LessonTickerDoneCB(void)
+801bc934 00000024 801bc934 0 LessonTickerDoneCB(void)
+801bc9a8 00000024 801bc9a8 0 LessonTickerDoneCB(void)
+801bca1c 00000024 801bca1c 0 LessonTickerDoneCB(void)
+801bca90 00000024 801bca90 0 LessonTickerDoneCB(void)
+801bcb04 00000024 801bcb04 0 LessonTickerDoneCB(void)
+801bcb78 00000024 801bcb78 0 LessonTickerDoneCB(void)
+801bcbec 00000024 801bcbec 0 LessonTickerDoneCB(void)
+801bcc60 00000024 801bcc60 0 LessonTickerDoneCB(void)
+801bccd4 00000024 801bccd4 0 LessonTickerDoneCB(void)
+801bcd48 00000024 801bcd48 0 LessonTickerDoneCB(void)
+801bcdbc 00000024 801bcdbc 0 LessonTickerDoneCB(void)
+801bce30 00000024 801bce30 0 LessonTickerDoneCB(void)
+801bcea4 00000024 801bcea4 0 LessonTickerDoneCB(void)
+801bcf18 00000024 801bcf18 0 LessonTickerDoneCB(void)
+801bcf8c 00000024 801bcf8c 0 LessonTickerDoneCB(void)
+801bd000 00000024 801bd000 0 LessonTickerDoneCB(void)
+801bd074 00000024 801bd074 0 LessonTickerDoneCB(void)
+801bd0e8 00000024 801bd0e8 0 LessonTickerDoneCB(void)
+801bd15c 00000024 801bd15c 0 LessonTickerDoneCB(void)
+801bd1d0 00000024 801bd1d0 0 LessonTickerDoneCB(void)
+801bd244 00000024 801bd244 0 LessonTickerDoneCB(void)
+801bd2b8 00000024 801bd2b8 0 LessonTickerDoneCB(void)
+801bd32c 00000024 801bd32c 0 LessonTickerDoneCB(void)
+801bd3a0 00000024 801bd3a0 0 LessonTickerDoneCB(void)
+801bd414 00000024 801bd414 0 LessonTickerDoneCB(void)
+801bd488 00000024 801bd488 0 LessonTickerDoneCB(void)
+801bd4fc 00000024 801bd4fc 0 LessonTickerDoneCB(void)
+801bd570 00000024 801bd570 0 LessonTickerDoneCB(void)
+801bd5e4 00000024 801bd5e4 0 LessonTickerDoneCB(void)
+801bd658 00000024 801bd658 0 LessonTickerDoneCB(void)
+801bd6cc 00000024 801bd6cc 0 LessonTickerDoneCB(void)
+801bd740 00000024 801bd740 0 LessonTickerDoneCB(void)
+801bd7b4 00000024 801bd7b4 0 LessonTickerDoneCB(void)
+801bd828 00000024 801bd828 0 LessonTickerDoneCB(void)
+801bd89c 00000024 801bd89c 0 LessonTickerDoneCB(void)
+801bd910 00000024 801bd910 0 LessonTickerDoneCB(void)
+801bd984 00000024 801bd984 0 LessonTickerDoneCB(void)
+801bd9f8 00000024 801bd9f8 0 LessonTickerDoneCB(void)
+801bda6c 00000024 801bda6c 0 LessonTickerDoneCB(void)
+801bdae0 00000024 801bdae0 0 LessonTickerDoneCB(void)
+801bdb54 00000024 801bdb54 0 LessonTickerDoneCB(void)
+801bdbc8 00000024 801bdbc8 0 LessonTickerDoneCB(void)
+801bdc3c 00000024 801bdc3c 0 LessonTickerDoneCB(void)
+801bdcb0 00000024 801bdcb0 0 LessonTickerDoneCB(void)
+801bdd24 00000024 801bdd24 0 LessonTickerDoneCB(void)
+801bdd98 00000024 801bdd98 0 LessonTickerDoneCB(void)
+801bde0c 00000024 801bde0c 0 LessonTickerDoneCB(void)
+801bde80 00000024 801bde80 0 LessonTickerDoneCB(void)
+801bdef4 00000024 801bdef4 0 LessonTickerDoneCB(void)
+801bdf68 00000024 801bdf68 0 LessonTickerDoneCB(void)
+801bdfdc 00000024 801bdfdc 0 LessonTickerDoneCB(void)
+801be050 00000024 801be050 0 LessonTickerDoneCB(void)
+801be0c4 00000024 801be0c4 0 LessonTickerDoneCB(void)
+801be138 00000024 801be138 0 LessonTickerDoneCB(void)
+801be1ac 00000024 801be1ac 0 LessonTickerDoneCB(void)
+801be220 00000024 801be220 0 LessonTickerDoneCB(void)
+801be294 00000024 801be294 0 LessonTickerDoneCB(void)
+801be308 00000024 801be308 0 LessonTickerDoneCB(void)
+801be37c 00000024 801be37c 0 LessonTickerDoneCB(void)
+801be3f0 00000024 801be3f0 0 LessonTickerDoneCB(void)
+801be464 00000024 801be464 0 LessonTickerDoneCB(void)
+801be4d8 00000024 801be4d8 0 LessonTickerDoneCB(void)
+801be54c 00000024 801be54c 0 LessonTickerDoneCB(void)
+801be5c0 00000024 801be5c0 0 LessonTickerDoneCB(void)
+801be634 00000024 801be634 0 LessonTickerDoneCB(void)
+801be6a8 00000024 801be6a8 0 LessonTickerDoneCB(void)
+801be71c 00000024 801be71c 0 LessonTickerDoneCB(void)
+801be790 00000024 801be790 0 LessonTickerDoneCB(void)
+801be804 00000024 801be804 0 LessonTickerDoneCB(void)
+801be878 00000024 801be878 0 LessonTickerDoneCB(void)
+801bf314 00000024 801bf314 0 LessonTickerDoneCB(void)
+801bf388 00000024 801bf388 0 LessonTickerDoneCB(void)
+801c0660 00000024 801c0660 0 LessonTickerDoneCB(void)
+801c0684 00000024 801c0684 0 LessonTickerDoneCB(void)
+801c06a8 00000024 801c06a8 0 LessonTickerDoneCB(void)
+801c06cc 00000024 801c06cc 0 LessonTickerDoneCB(void)
+801c06f0 00000024 801c06f0 0 LessonTickerDoneCB(void)
+801c0714 00000004 801c0714 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801c08f4 00000008 801c08f4 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+801c08fc 00000008 801c08fc 0 IPCGetBufferLo 	ipc.a ipcMain.o
+801c0950 00000018 801c0950 0 CARDGetXferredBytes
+801c0998 00000010 801c0998 0 LooseBallAnims::Destroy(void)
+801c0f6c 00000024 801c0f6c 0 cFielder::EndAction(void)
+801c12a4 00000030 801c12a4 0 Audio::RemoveDelayedSFX(unsigned long)
+801c12d4 00000008 801c12d4 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+801c12dc 00000008 801c12dc 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+801c12e4 00000030 801c12e4 0 Audio::RemoveDelayedSFX(unsigned long)
+801c1714 00000008 801c1714 0 IPCGetBufferLo 	ipc.a ipcMain.o
+801c29cc 00000004 801c29cc 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801c2dc8 00000004 801c2dc8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801c2e40 00000010 801c2e40 0 LooseBallAnims::Destroy(void)
+801c88bc 0000000c 801c88bc 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+801cedd8 00000004 801cedd8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801d2014 00000024 801d2014 0 LessonTickerDoneCB(void)
+801d8b24 00000028 801d8b24 0 dWorldQuickStep
+801d8b4c 00000028 801d8b4c 0 dWorldQuickStep
+801db564 00000024 801db564 0 LessonTickerDoneCB(void)
+801dcabc 00000004 801dcabc 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801e2c10 00000004 801e2c10 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801e80f4 00000020 801e80f4 0 cPlayer::PostPhysicsUpdate(void)
+801ea2fc 00000020 801ea2fc 0 cPlayer::PostPhysicsUpdate(void)
+801ead8c 00000034 801ead8c 0 __fini_cpp_exceptions
+801eb3ec 00000020 801eb3ec 0 cPlayer::PostPhysicsUpdate(void)
+801eb40c 00000020 801eb40c 0 cPlayer::PostPhysicsUpdate(void)
+801ecbb0 00000004 801ecbb0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801ef4a4 0000000c 801ef4a4 0 cAIPad::__ct(void)
+801ef4b0 00000004 801ef4b0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801f08e0 00000024 801f08e0 0 LessonTickerDoneCB(void)
+801f17d0 00000004 801f17d0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801f6160 00000004 801f6160 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801f88b0 00000004 801f88b0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801f88b4 00000020 801f88b4 0 cPlayer::PostPhysicsUpdate(void)
+801fb808 00000028 801fb808 0 TRKNubWelcome
+801fb830 00000028 801fb830 0 TRKNubWelcome
+801fca68 00000004 801fca68 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801fd008 00000024 801fd008 0 LessonTickerDoneCB(void)
+801ff0c0 00000004 801ff0c0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+801ff0c4 00000024 801ff0c4 0 cFielder::EndAction(void)
+80200530 00000024 80200530 0 cFielder::EndAction(void)
+802015b4 00000004 802015b4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80205594 00000004 80205594 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80205614 0000000c 80205614 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+802071bc 00000010 802071bc 0 LooseBallAnims::Destroy(void)
+8020859c 00000020 8020859c 0 cPlayer::PostPhysicsUpdate(void)
+80209004 00000004 80209004 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802093ec 0000000c 802093ec 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+8020a72c 00000024 8020a72c 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+8020b398 00000024 8020b398 0 cFielder::EndAction(void)
+8020b3bc 00000024 8020b3bc 0 cFielder::EndAction(void)
+8020b3e0 00000024 8020b3e0 0 cFielder::EndAction(void)
+8020b404 00000024 8020b404 0 cFielder::EndAction(void)
+8020b428 00000024 8020b428 0 cFielder::EndAction(void)
+8020b44c 00000024 8020b44c 0 cFielder::EndAction(void)
+8020b470 00000024 8020b470 0 cFielder::EndAction(void)
+8020b494 00000024 8020b494 0 cFielder::EndAction(void)
+8020b9a4 00000004 8020b9a4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8020d720 0000002c 8020d720 0 MoviePlayerScene::PlayScreenBackSFX(void)
+8021727c 00000004 8021727c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80219194 00000020 80219194 0 cPlayer::PostPhysicsUpdate(void)
+802192d0 00000004 802192d0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80219930 00000020 80219930 0 cPlayer::PostPhysicsUpdate(void)
+80219980 00000004 80219980 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8021a7bc 00000008 8021a7bc 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8021a81c 00000030 8021a81c 0 nlInit(void)
+8021b40c 00000004 8021b40c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8021b448 00000004 8021b448 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8021bb8c 0000002c 8021bb8c 0 hidh_conn_dereg 	bte.a hidh_conn.o
+8021bd00 00000020 8021bd00 0 cPlayer::PostPhysicsUpdate(void)
+8021bd20 00000004 8021bd20 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8021c60c 00000004 8021c60c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8021c7d4 00000024 8021c7d4 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+8021edac 00000020 8021edac 0 cPlayer::PostPhysicsUpdate(void)
+8021eff4 00000004 8021eff4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8021eff8 00000004 8021eff8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8021f550 00000020 8021f550 0 cPlayer::PostPhysicsUpdate(void)
+80220660 00000038 80220660 0 TRKEXICallBack
+802213fc 00000008 802213fc 0 IPCSetBufferLo 	ipc.a ipcMain.o
+80221854 00000010 80221854 0 THPSimpleGetCurrentFrame
+80221864 00000010 80221864 0 THPSimpleGetCurrentFrame
+80221bdc 0000000c 80221bdc 0 AXFXSetHooks 	axfx.a AXFXHooks.o
+8022277c 00000004 8022277c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8022296c 00000008 8022296c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80223584 00000024 80223584 0 cFielder::UpdatePlay(float)
+8022a8cc 00000008 8022a8cc 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8022a8d4 00000008 8022a8d4 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8022cf74 00000010 8022cf74 0 THPSimpleGetCurrentFrame
+80231da8 0000000c 80231da8 0 JASDsp::TChannel::forceStop(void) 	JAudio2.a JASDSPInterface.o
+802321d4 00000024 802321d4 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+802322e8 0000000c 802322e8 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+80232760 00000024 80232760 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+802333ec 00000024 802333ec 0 glxCopyMatrix(float (&)[4][4], nlMatrix4 &)
+80233510 0000000c 80233510 0 cAIPad::__ct(void)
+8023411c 00000020 8023411c 0 cPlayer::PostPhysicsUpdate(void)
+80234a00 00000004 80234a00 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802386ec 00000020 802386ec 0 cPlayer::PostPhysicsUpdate(void)
+80238f8c 00000008 80238f8c 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80238f94 00000008 80238f94 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80238f9c 00000018 80238f9c 0 CARDGetXferredBytes
+80238fe0 00000008 80238fe0 0 IPCSetBufferLo 	ipc.a ipcMain.o
+80238fe8 00000008 80238fe8 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8023bbf4 00000008 8023bbf4 0 IPCSetBufferLo 	ipc.a ipcMain.o
+8023d1a0 00000008 8023d1a0 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8023d1a8 00000004 8023d1a8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8024186c 00000008 8024186c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80242604 00000034 80242604 0 __fini_cpp_exceptions
+80242890 00000010 80242890 0 THPSimpleGetCurrentFrame
+802428dc 00000008 802428dc 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80247898 00000010 80247898 0 TRKTargetSetInputPendingPtr
+802520a4 00000004 802520a4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802520a8 00000008 802520a8 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80253e74 00000008 80253e74 0 JASDsp::getDSPMixerLevel(void) 	JAudio2.a JASDSPInterface.o
+80254cd8 00000004 80254cd8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8025b920 00000008 8025b920 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8025b9a8 0000000c 8025b9a8 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+8025c9d0 00000008 8025c9d0 0 IPCSetBufferLo 	ipc.a ipcMain.o
+80268168 00000004 80268168 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80276a0c 00000008 80276a0c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8027d794 00000024 8027d794 0 cFielder::UpdatePlay(float)
+80280c7c 00000008 80280c7c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80280c84 00000008 80280c84 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80284220 00000024 80284220 0 glxCopyMatrix(float (&)[4][4], nlMatrix4 &)
+80284244 00000024 80284244 0 glxCopyMatrix(float (&)[4][4], nlMatrix4 &)
+8029735c 00000010 8029735c 0 dGeomEnable
+802ad804 00000008 802ad804 0 IPCSetBufferLo 	ipc.a ipcMain.o
+802af384 00000008 802af384 0 IPCSetBufferLo 	ipc.a ipcMain.o
+802bc194 00000008 802bc194 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+802bc19c 00000008 802bc19c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+802c3dac 00000004 802c3dac 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802c72b0 00000008 802c72b0 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+802c72b8 00000008 802c72b8 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+802c774c 00000024 802c774c 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+802c7770 00000018 802c7770 0 CARDGetXferredBytes
+802c7838 00000008 802c7838 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+802c7840 00000008 802c7840 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+802c787c 00000014 802c787c 0 LooseBallAnims::GetDesperationInfo(unsigned int)
+802c7890 00000014 802c7890 0 LooseBallAnims::GetDesperationInfo(unsigned int)
+802c7dc0 00000008 802c7dc0 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+802c9ca0 00000020 802c9ca0 0 cPlayer::PostPhysicsUpdate(void)
+802cc0f0 00000004 802cc0f0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802cd764 00000004 802cd764 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802d4ea0 00000020 802d4ea0 0 cPlayer::PostPhysicsUpdate(void)
+802d5db8 00000020 802d5db8 0 cPlayer::PostPhysicsUpdate(void)
+802d75ac 00000004 802d75ac 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802d8228 00000020 802d8228 0 cPlayer::PostPhysicsUpdate(void)
+802d8c2c 00000020 802d8c2c 0 cPlayer::PostPhysicsUpdate(void)
+802d9df8 00000008 802d9df8 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+802d9e00 00000008 802d9e00 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+802da224 00000020 802da224 0 cPlayer::PostPhysicsUpdate(void)
+802dabe4 00000020 802dabe4 0 cPlayer::PostPhysicsUpdate(void)
+802dac04 00000024 802dac04 0 SidelineExplodableManager::GetNumExplodables(void)
+802dac28 00000020 802dac28 0 cPlayer::PostPhysicsUpdate(void)
+802dd714 00000028 802dd714 0 nlQSort<20AnimAudioEventLookup>(AnimAudioEventLookup *, int, int (*)(AnimAudioEventLookup *, AnimAudioEventLookup *))
+802deb3c 00000020 802deb3c 0 cPlayer::PostPhysicsUpdate(void)
+802defe0 00000008 802defe0 0 IPCGetBufferLo 	ipc.a ipcMain.o
+802df23c 00000020 802df23c 0 cPlayer::PostPhysicsUpdate(void)
+802df864 00000004 802df864 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802dfbd0 00000004 802dfbd0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802e0a9c 00000008 802e0a9c 0 IPCGetBufferLo 	ipc.a ipcMain.o
+802e18dc 00000004 802e18dc 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802e6f7c 00000004 802e6f7c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802eec10 00000014 802eec10 0 LooseBallAnims::GetDesperationInfo(unsigned int)
+802eed28 00000008 802eed28 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+802eedb8 00000008 802eedb8 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+802eeff4 00000024 802eeff4 0 cFielder::UpdatePlay(float)
+802ef374 00000024 802ef374 0 cFielder::UpdatePlay(float)
+802ef398 00000024 802ef398 0 cFielder::UpdatePlay(float)
+802ef838 00000004 802ef838 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802f209c 00000004 802f209c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802f675c 00000020 802f675c 0 cPlayer::PostPhysicsUpdate(void)
+802f79f0 00000004 802f79f0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802f9460 00000004 802f9460 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802f9d9c 00000004 802f9d9c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802fa55c 00000008 802fa55c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+802fa6f0 00000004 802fa6f0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802fbf3c 00000020 802fbf3c 0 cPlayer::PostPhysicsUpdate(void)
+802fc494 00000004 802fc494 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802fc638 00000004 802fc638 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+802fc63c 00000020 802fc63c 0 cPlayer::PostPhysicsUpdate(void)
+802fd8ec 0000000c 802fd8ec 0 cAIPad::__ct(void)
+80300438 00000024 80300438 0 cFielder::EndAction(void)
+8030045c 00000024 8030045c 0 cFielder::EndAction(void)
+80300480 00000024 80300480 0 cFielder::EndAction(void)
+803004a4 00000024 803004a4 0 cFielder::EndAction(void)
+80300b58 00000008 80300b58 0 IPCSetBufferLo 	ipc.a ipcMain.o
+80301710 00000004 80301710 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80301a50 00000024 80301a50 0 LessonTickerDoneCB(void)
+80306f38 00000008 80306f38 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80309ee0 00000024 80309ee0 0 LessonTickerDoneCB(void)
+8030b27c 00000020 8030b27c 0 cPlayer::PostPhysicsUpdate(void)
+8030f87c 00000008 8030f87c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80311ea0 00000020 80311ea0 0 cPlayer::PostPhysicsUpdate(void)
+8031216c 00000028 8031216c 0 glxSwapWaitDrawDone(void)
+803195a4 00000014 803195a4 0 Cup<8,14>::GetTeamStats(int)
+803195d8 00000024 803195d8 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+8031d464 00000004 8031d464 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8031d468 00000014 8031d468 0 GetCommonDesireData(eFielderDesireState)
+8031d47c 00000018 8031d47c 0 CARDGetXferredBytes
+8031d6cc 00000008 8031d6cc 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8031d6d4 00000014 8031d6d4 0 LooseBallAnims::GetDesperationInfo(unsigned int)
+8031d6e8 00000010 8031d6e8 0 THPSimpleGetCurrentFrame
+8031d6f8 00000010 8031d6f8 0 TRKTargetSetInputPendingPtr
+8031d708 00000008 8031d708 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8031d710 0000000c 8031d710 0 GetOneTimerLeadGroundContactAnims(void)
+8031d71c 00000014 8031d71c 0 LooseBallAnims::GetDesperationInfo(unsigned int)
+8031df20 0000000c 8031df20 0 GetOneTimerLeadGroundContactAnims(void)
+8031dfec 0000000c 8031dfec 0 glSetRasterStateDefaults(void)
+8031e558 00000020 8031e558 0 cPlayer::PostPhysicsUpdate(void)
+8031ef8c 00000020 8031ef8c 0 cPlayer::PostPhysicsUpdate(void)
+803204e4 00000010 803204e4 0 THPSimpleGetCurrentFrame
+8032067c 00000010 8032067c 0 THPSimpleGetCurrentFrame
+803214b8 00000008 803214b8 0 IPCSetBufferLo 	ipc.a ipcMain.o
+803214c0 00000008 803214c0 0 IPCGetBufferLo 	ipc.a ipcMain.o
+803218e4 00000024 803218e4 0 LexicalCast<PCc,f>(float &)
+8032196c 00000010 8032196c 0 cFielder::IsStriker( (void))
+80321a14 00000024 80321a14 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+80321a38 00000020 80321a38 0 cPlayer::PostPhysicsUpdate(void)
+80321a58 0000000c 80321a58 0 GetOneTimerLeadGroundContactAnims(void)
+80322098 00000030 80322098 0 EmissionManager::IsStillAlive(EmissionController *)
+80323d68 00000008 80323d68 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80323ef0 00000008 80323ef0 0 IPCSetBufferLo 	ipc.a ipcMain.o
+80323ef8 00000008 80323ef8 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80327054 00000034 80327054 0 cCharacter::IsPlayingEffect( (EffectsGroup *))
+803276d0 0000002c 803276d0 0 GCAudioStreaming::StereoAudioStream::CancelPendingReads( (void))
+803276fc 0000002c 803276fc 0 GCAudioStreaming::StereoAudioStream::CancelPendingReads( (void))
+80327728 0000002c 80327728 0 GCAudioStreaming::StereoAudioStream::CancelPendingReads( (void))
+80328474 00000014 80328474 0 LooseBallAnims::GetDesperationInfo(unsigned int)
+80328488 00000008 80328488 0 WPADGetDpdSensitivity 	wpad.a WPAD.o
+80328490 00000008 80328490 0 bta_sys_set_trace_level 	bte.a bta_sys_main.o
+80329e8c 00000020 80329e8c 0 cPlayer::PostPhysicsUpdate(void)
+8032a460 0000002c 8032a460 0 glStateSave(glStateBundle &)
+8032a48c 0000002c 8032a48c 0 glStateSave(glStateBundle &)
+8032a5ec 00000014 8032a5ec 0 cFielder::ShouldILeadPass(void)
+8032a630 00000008 8032a630 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8032a6f4 00000014 8032a6f4 0 GetCommonDesireData(eFielderDesireState)
+8032a828 00000008 8032a828 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8032a844 00000008 8032a844 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8032a9a8 00000024 8032a9a8 0 LessonTickerDoneCB(void)
+8032ae4c 00000014 8032ae4c 0 cFielder::ShouldILeadPass(void)
+8032b26c 00000008 8032b26c 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8032b274 00000008 8032b274 0 IPCSetBufferLo 	ipc.a ipcMain.o
+8032b27c 00000024 8032b27c 0 LessonTickerDoneCB(void)
+8032b4a4 00000020 8032b4a4 0 cPlayer::PostPhysicsUpdate(void)
+8032b4c4 00000020 8032b4c4 0 cPlayer::PostPhysicsUpdate(void)
+8032b540 00000024 8032b540 0 aramGetFirstUserAddress
+8032b584 00000008 8032b584 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8032b58c 00000008 8032b58c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8032bb30 0000002c 8032bb30 0 GCAudioStreaming::StereoAudioStream::CancelPendingReads( (void))
+8032d2c4 00000008 8032d2c4 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8032d414 00000020 8032d414 0 cPlayer::PostPhysicsUpdate(void)
+8032e7ec 00000024 8032e7ec 0 aramGetFirstUserAddress
+8033224c 00000020 8033224c 0 cPlayer::PostPhysicsUpdate(void)
+80336778 0000000c 80336778 0 GetOneTimerLeadGroundContactAnims(void)
+803369e4 00000008 803369e4 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+803369ec 00000008 803369ec 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80337e00 00000004 80337e00 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80337e04 0000000c 80337e04 0 cAIPad::__ct(void)
+803385f0 0000000c 803385f0 0 cAIPad::__ct(void)
+80339c00 00000028 80339c00 0 dWorldQuickStep
+80339eb4 00000008 80339eb4 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80339ebc 00000020 80339ebc 0 cPlayer::PostPhysicsUpdate(void)
+8033a18c 00000024 8033a18c 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+8033b25c 00000020 8033b25c 0 cPlayer::PostPhysicsUpdate(void)
+8033b27c 00000020 8033b27c 0 cPlayer::PostPhysicsUpdate(void)
+8033ccd4 00000008 8033ccd4 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80341014 00000004 80341014 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80342564 00000014 80342564 0 JUTXfb::clearIndex(void) 	JUtility.a JUTXfb.o
+8034545c 00000028 8034545c 0 nw4hbm::lyt::detail::TestFileHeader(nw4hbm::lyt::res::BinaryFileHeader const &) 	homebuttonLib.a lyt_common.o
+80345484 00000028 80345484 0 BasicSlotPoolHigh<33ListEntry<20AnimAudioEventLookup>>::allocFN(unsigned long)
+80346b18 0000000c 80346b18 0 GetOneTimerLeadGroundContactAnims(void)
+80346b5c 00000008 80346b5c 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80346bac 00000004 80346bac 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80346ec8 00000008 80346ec8 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+8034737c 00000024 8034737c 0 SidelineExplodableManager::GetNumExplodables(void)
+803473a0 00000024 803473a0 0 SidelineExplodableManager::GetNumExplodables(void)
+80348040 00000034 80348040 0 cCharacter::IsPlayingEffect( (EffectsGroup *))
+803480e8 00000028 803480e8 0 BasicSlotPoolHigh<33ListEntry<20AnimAudioEventLookup>>::allocFN(unsigned long)
+80348110 00000028 80348110 0 BasicSlotPoolHigh<33ListEntry<20AnimAudioEventLookup>>::allocFN(unsigned long)
+803484b8 00000008 803484b8 0 IPCSetBufferLo 	ipc.a ipcMain.o
+803484c0 00000004 803484c0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+803484c4 00000014 803484c4 0 GetCommonDesireData(eFielderDesireState)
+803484d8 00000020 803484d8 0 cPlayer::PostPhysicsUpdate(void)
+80349020 0000000c 80349020 0 GetOneTimerLeadGroundContactAnims(void)
+80349064 00000004 80349064 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80349148 00000014 80349148 0 cFielder::ShouldILeadPass(void)
+80349218 00000020 80349218 0 cPlayer::PostPhysicsUpdate(void)
+8034a540 00000004 8034a540 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8034a750 0000000c 8034a750 0 DrawableCharacter::GetAnimController( (void))
+8034acd8 00000028 8034acd8 0 sndAuxCallbackShutdownChorus
+8034ad4c 00000028 8034ad4c 0 sndAuxCallbackShutdownChorus
+8034cb54 00000004 8034cb54 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8034cf80 00000004 8034cf80 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8034cf84 00000004 8034cf84 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8034d08c 00000004 8034d08c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8034d6ac 00000004 8034d6ac 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8034dc74 00000004 8034dc74 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8034dc78 00000004 8034dc78 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8034e480 00000010 8034e480 0 VMBASEGetVirtualAddrFromPageInMRAM
+8034f080 00000008 8034f080 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8035143c 00000020 8035143c 0 cPlayer::PostPhysicsUpdate(void)
+8035145c 00000024 8035145c 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+80351b9c 00000020 80351b9c 0 cPlayer::PostPhysicsUpdate(void)
+80351c90 00000014 80351c90 0 GetCommonDesireData(eFielderDesireState)
+803547a8 00000020 803547a8 0 cPlayer::PostPhysicsUpdate(void)
+80354880 00000004 80354880 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+803548ac 00000004 803548ac 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80357874 00000008 80357874 0 IPCSetBufferLo 	ipc.a ipcMain.o
+8035787c 0000000c 8035787c 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+80357888 00000010 80357888 0 LooseBallAnims::Destroy(void)
+80357cc0 00000004 80357cc0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8035af44 00000024 8035af44 0 LessonTickerDoneCB(void)
+8035b0c0 00000024 8035b0c0 0 LessonTickerDoneCB(void)
+8035c664 00000020 8035c664 0 cPlayer::PostPhysicsUpdate(void)
+8035c684 0000000c 8035c684 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+8035c690 00000004 8035c690 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8035f6f4 0000000c 8035f6f4 0 glUnHandleizeTextureState(unsigned long long)
+80360f70 00000008 80360f70 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8036568c 00000008 8036568c 0 GXInitTexObjUserData 	gx.a GXTexture.o
+80365b90 00000020 80365b90 0 cPlayer::PostPhysicsUpdate(void)
+80365eac 00000008 80365eac 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80366010 00000020 80366010 0 cPlayer::PostPhysicsUpdate(void)
+80366030 00000008 80366030 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80366038 00000004 80366038 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+803660b0 00000020 803660b0 0 cPlayer::PostPhysicsUpdate(void)
+803660d0 00000008 803660d0 0 IPCGetBufferLo 	ipc.a ipcMain.o
+803660d8 00000008 803660d8 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+803660e0 00000008 803660e0 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+803660e8 00000004 803660e8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8036612c 00000008 8036612c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80366134 00000008 80366134 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8036613c 00000004 8036613c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80366140 00000004 80366140 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+803669b8 00000024 803669b8 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+803669dc 00000020 803669dc 0 cPlayer::PostPhysicsUpdate(void)
+8036a2e8 00000024 8036a2e8 0 homebutton::MotorCallback(OSAlarm *, OSContext *) 	homebuttonLib.a HBMBase.o
+8036f8fc 00000010 8036f8fc 0 JMessage::TSequenceProcessor::on_branch_register(void const *(*)(JMessage::TSequenceProcessor const *, unsigned long), void con
+8036f90c 00000008 8036f90c 0 GXInitTexObjUserData 	gx.a GXTexture.o
+8036fb10 00000008 8036fb10 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8036fcf4 00000008 8036fcf4 0 IPCSetBufferLo 	ipc.a ipcMain.o
+80370018 00000008 80370018 0 IPCGetBufferLo 	ipc.a ipcMain.o
+8037383c 0000000c 8037383c 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+803743d4 0000000c 803743d4 0 FETweener::setDoneCallFunc(void (*)(void *), void *)
+80374808 00000008 80374808 0 GXInitTexObjUserData 	gx.a GXTexture.o
+80374b84 00000004 80374b84 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80374e68 00000028 80374e68 0 TRKNubWelcome
+80374e90 00000004 80374e90 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8037581c 00000008 8037581c 0 IPCGetBufferLo 	ipc.a ipcMain.o
+80376034 00000004 80376034 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80376410 00000034 80376410 0 __fini_cpp_exceptions
+803765c0 00000028 803765c0 0 TRKNubWelcome
+803766f8 00000028 803766f8 0 TRKNubWelcome
+803768b8 00000028 803768b8 0 TRKNubWelcome
+8037793c 0000000c 8037793c 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+8037a558 00000028 8037a558 0 TRKNubWelcome
+8037a7b0 00000004 8037a7b0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8037a834 00000004 8037a834 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8037b64c 00000008 8037b64c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8037ca44 00000004 8037ca44 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8037d0d0 00000028 8037d0d0 0 sndAuxCallbackShutdownChorus
+8037dad0 00000020 8037dad0 0 cPlayer::PostPhysicsUpdate(void)
+8037dc78 0000001c 8037dc78 0 BIRDOSoundPropAccessor::IsUsingOrigTable( (void))
+8037ef48 00000008 8037ef48 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+803824b0 000000c8 803824b0 0 __va_arg
+80382578 00000048 80382578 0 __destroy_global_chain
+803825c0 0000005c 803825c0 0 __cvt_fp2unsigned
+8038261c 0000004c 8038261c 0 __save_fpr
+80382648 00000020 80382648 0 _savefpr_25 (entry of __save_fpr) 	Runtime.PPCEABI.H.a runtime.o
+8038264c 0000001c 8038264c 0 _savefpr_26 (entry of __save_fpr) 	Runtime.PPCEABI.H.a runtime.o
+80382650 00000018 80382650 0 _savefpr_27 (entry of __save_fpr) 	Runtime.PPCEABI.H.a runtime.o
+80382654 00000014 80382654 0 _savefpr_28 (entry of __save_fpr) 	Runtime.PPCEABI.H.a runtime.o
+80382658 00000010 80382658 0 _savefpr_29 (entry of __save_fpr) 	Runtime.PPCEABI.H.a runtime.o
+80382668 0000004c 80382668 0 __restore_fpr
+80382694 00000020 80382694 0 _restfpr_25 (entry of __restore_fpr) 	Runtime.PPCEABI.H.a runtime.o
+80382698 0000001c 80382698 0 _restfpr_26 (entry of __restore_fpr) 	Runtime.PPCEABI.H.a runtime.o
+8038269c 00000018 8038269c 0 _restfpr_27 (entry of __restore_fpr) 	Runtime.PPCEABI.H.a runtime.o
+803826a0 00000014 803826a0 0 _restfpr_28 (entry of __restore_fpr) 	Runtime.PPCEABI.H.a runtime.o
+803826a4 00000010 803826a4 0 _restfpr_29 (entry of __restore_fpr) 	Runtime.PPCEABI.H.a runtime.o
+803826b4 0000004c 803826b4 0 __save_gpr
+803826b8 00000048 803826b8 0 _savegpr_15 (entry of __save_gpr) 	Runtime.PPCEABI.H.a runtime.o
+803826bc 00000044 803826bc 0 _savegpr_16 (entry of __save_gpr) 	Runtime.PPCEABI.H.a runtime.o
+803826c0 00000040 803826c0 0 _savegpr_17 (entry of __save_gpr) 	Runtime.PPCEABI.H.a runtime.o
+803826c4 0000003c 803826c4 0 _savegpr_18 (entry of __save_gpr) 	Runtime.PPCEABI.H.a runtime.o
+803826c8 00000038 803826c8 0 _savegpr_19 (entry of __save_gpr) 	Runtime.PPCEABI.H.a runtime.o
+803826cc 00000034 803826cc 0 _savegpr_20 (entry of __save_gpr) 	Runtime.PPCEABI.H.a runtime.o
+803826d0 00000030 803826d0 0 _savegpr_21 (entry of __save_gpr) 	Runtime.PPCEABI.H.a runtime.o
+803826d4 0000002c 803826d4 0 _savegpr_22 (entry of __save_gpr) 	Runtime.PPCEABI.H.a runtime.o
+803826d8 00000028 803826d8 0 _savegpr_23 (entry of __save_gpr) 	Runtime.PPCEABI.H.a runtime.o
+803826dc 00000024 803826dc 0 _savegpr_24 (entry of __save_gpr) 	Runtime.PPCEABI.H.a runtime.o
+803826e0 00000020 803826e0 0 _savegpr_25 (entry of __save_gpr) 	Runtime.PPCEABI.H.a runtime.o
+803826e4 0000001c 803826e4 0 _savegpr_26 (entry of __save_gpr) 	Runtime.PPCEABI.H.a runtime.o
+803826e8 00000018 803826e8 0 _savegpr_27 (entry of __save_gpr) 	Runtime.PPCEABI.H.a runtime.o
+803826ec 00000014 803826ec 0 _savegpr_28 (entry of __save_gpr) 	Runtime.PPCEABI.H.a runtime.o
+803826f0 00000010 803826f0 0 _savegpr_29 (entry of __save_gpr) 	Runtime.PPCEABI.H.a runtime.o
+80382700 0000004c 80382700 0 __restore_gpr
+80382704 00000048 80382704 0 _restgpr_15 (entry of __restore_gpr) 	Runtime.PPCEABI.H.a runtime.o
+80382708 00000044 80382708 0 _restgpr_16 (entry of __restore_gpr) 	Runtime.PPCEABI.H.a runtime.o
+8038270c 00000040 8038270c 0 _restgpr_17 (entry of __restore_gpr) 	Runtime.PPCEABI.H.a runtime.o
+80382710 0000003c 80382710 0 _restgpr_18 (entry of __restore_gpr) 	Runtime.PPCEABI.H.a runtime.o
+80382714 00000038 80382714 0 _restgpr_19 (entry of __restore_gpr) 	Runtime.PPCEABI.H.a runtime.o
+80382718 00000034 80382718 0 _restgpr_20 (entry of __restore_gpr) 	Runtime.PPCEABI.H.a runtime.o
+8038271c 00000030 8038271c 0 _restgpr_21 (entry of __restore_gpr) 	Runtime.PPCEABI.H.a runtime.o
+80382720 0000002c 80382720 0 _restgpr_22 (entry of __restore_gpr) 	Runtime.PPCEABI.H.a runtime.o
+80382724 00000028 80382724 0 _restgpr_23 (entry of __restore_gpr) 	Runtime.PPCEABI.H.a runtime.o
+80382728 00000024 80382728 0 _restgpr_24 (entry of __restore_gpr) 	Runtime.PPCEABI.H.a runtime.o
+8038272c 00000020 8038272c 0 _restgpr_25 (entry of __restore_gpr) 	Runtime.PPCEABI.H.a runtime.o
+80382730 0000001c 80382730 0 _restgpr_26 (entry of __restore_gpr) 	Runtime.PPCEABI.H.a runtime.o
+80382734 00000018 80382734 0 _restgpr_27 (entry of __restore_gpr) 	Runtime.PPCEABI.H.a runtime.o
+80382738 00000014 80382738 0 _restgpr_28 (entry of __restore_gpr) 	Runtime.PPCEABI.H.a runtime.o
+8038273c 00000010 8038273c 0 _restgpr_29 (entry of __restore_gpr) 	Runtime.PPCEABI.H.a runtime.o
+8038274c 000000ec 8038274c 0 __div2u
+80382838 00000138 80382838 0 __div2i
+80382970 000000e0 80382970 0 __mod2u
+80382a50 00000004 80382a50 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80382a54 0000010c 80382a54 0 __mod2i
+80382b60 00000024 80382b60 0 __shl2i
+80382b84 00000024 80382b84 0 __shr2u
+80382ba8 00000028 80382ba8 0 __shr2i
+80382bd0 000000cc 80382bd0 0 __cvt_dbl_usll
+80382c9c 000000b8 80382c9c 0 __sys_free
+80382d54 000000f0 80382d54 0 exit
+80382e44 00000070 80382e44 0 free
+80382eb4 00000058 80382eb4 0 __pool_free
+80382f0c 00000158 80382f0c 0 deallocate_from_fixed_pools
+80383064 00000294 80383064 0 deallocate_from_var_pools
+803832f8 00000070 803832f8 0 __flush_all
+80383368 000000a8 80383368 0 __close_all
+80383410 00001080 80383410 0 __dec2num
+80384490 000001a4 80384490 0 __num2dec
+80384634 000003b4 80384634 0 __num2dec_internal
+803849e8 000004fc 803849e8 0 __minus_dec
+80384ee4 0000010c 80384ee4 0 __equals_dec
+80384ff0 00001784 80384ff0 0 __two_exp
+80386774 00000278 80386774 0 __timesdec
+803869ec 000000c4 803869ec 0 __flush_buffer
+80386ab0 00000034 80386ab0 0 __prep_buffer
+80386c20 000001b8 80386c20 0 __put_char
+80386dd8 00000004 80386dd8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80386ddc 00000004 80386ddc 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80386de0 00000004 80386de0 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80386de4 00000024 80386de4 0 tolower
+80386e08 0000030c 80386e08 0 __fwrite
+80387114 0000007c 80387114 0 fwrite
+80387190 00000138 80387190 0 fflush
+803872c8 000001bc 803872c8 0 fclose
+80387484 0000006c 80387484 0 fseek
+803874f0 00000270 803874f0 0 _fseek
+80387760 000000e4 80387760 0 ftell
+80387844 00000118 80387844 0 wcstombs
+8038795c 00000120 8038795c 0 mbtowc
+80387a7c 000000ec 80387a7c 0 is_utf8_complete
+80387b68 0000004c 80387b68 0 memcmp
+80387bb4 0000002c 80387bb4 0 __memrchr
+80387be0 0000002c 80387be0 0 memchr
+80387c0c 000000cc 80387c0c 0 memmove
+80387cd8 000000ac 80387cd8 0 __copy_longs_rev_unaligned
+80387d84 000000c0 80387d84 0 __copy_longs_unaligned
+80387e44 000000a8 80387e44 0 __copy_longs_rev_aligned
+80387eec 000000bc 80387eec 0 __copy_longs_aligned
+80387fa8 00000010 80387fa8 0 __sinit_AILoader_cpp
+80387fb8 000000e0 80387fb8 0 sprintf
+803881e4 00000098 803881e4 0 vprintf
+8038827c 0000006c 8038827c 0 __StringWrite
+803882e8 00000058 803882e8 0 __FileWrite
+80388340 00000774 80388340 0 __pformatter
+80388ab4 0000071c 80388ab4 0 float2str
+803891d0 0000012c 803891d0 0 round_decimal
+803892fc 00000338 803892fc 0 double2hex
+80389634 00000314 80389634 0 longlong2str
+80389948 00000258 80389948 0 long2str
+80389ba0 00000504 80389ba0 0 parse_format
+8038a0a4 0000016c 8038a0a4 0 qsort
+8038a210 000000c4 8038a210 0 sscanf
+8038a2d4 00000090 8038a2d4 0 __StringRead
+8038a364 000009ac 8038a364 0 __sformatter
+8038ad10 00000548 8038ad10 0 parse_format
+8038b258 00000068 8038b258 0 strstr
+8038b308 00000030 8038b308 0 strchr
+8038b338 00000040 8038b338 0 strncmp
+8038b378 00000128 8038b378 0 strcmp
+8038b4cc 00000044 8038b4cc 0 strncpy
+8038b510 000000b8 8038b510 0 strcpy
+8038b5c8 0000001c 8038b5c8 0 strlen
+8038b5e4 0000008c 8038b5e4 0 atof
+8038b670 0000100c 8038b670 0 __strtold
+8038c67c 000000c0 8038c67c 0 atoi
+8038c82c 0000040c 8038c82c 0 __strtoull
+8038cc38 00000378 8038cc38 0 __strtoul
+8038cfb0 00000088 8038cfb0 0 fwide
+8038d038 00000008 8038d038 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8038d040 000000d0 8038d040 0 __write_console
+8038d110 0000023c 8038d110 0 __ieee754_acos
+8038da38 0000033c 8038da38 0 __ieee754_fmod
+8038e100 00000830 8038e100 0 __ieee754_pow
+8038e930 000003a0 8038e930 0 __ieee754_rem_pio2
+8038ecd0 000000f4 8038ecd0 0 __kernel_cos
+8038fc18 000000a0 8038fc18 0 __kernel_sin
+8038fcb8 00000214 8038fcb8 0 __kernel_tan
+8038fecc 00000218 8038fecc 0 atan
+803900e4 00000144 803900e4 0 ceil
+80390228 00000028 80390228 0 copysign
+80390324 00000148 80390324 0 floor
+8039046c 0000008c 8039046c 0 frexp
+803904f8 000001c4 803904f8 0 ldexp
+803906bc 000000fc 803906bc 0 modf
+80390914 000000d8 80390914 0 sin
+803909ec 00000078 803909ec 0 tan
+80390a64 00000020 80390a64 0 cPlayer::PostPhysicsUpdate(void)
+80390a84 00000020 80390a84 0 cPlayer::PostPhysicsUpdate(void)
+80390aa4 00000020 80390aa4 0 cPlayer::PostPhysicsUpdate(void)
+80390ac4 00000020 80390ac4 0 cPlayer::PostPhysicsUpdate(void)
+80390ae4 00000020 80390ae4 0 cPlayer::PostPhysicsUpdate(void)
+80390b04 00000020 80390b04 0 cPlayer::PostPhysicsUpdate(void)
+80390b24 00000020 80390b24 0 cPlayer::PostPhysicsUpdate(void)
+80390b44 00000020 80390b44 0 cPlayer::PostPhysicsUpdate(void)
+80390b64 00000224 80390b64 0 __ieee754_sqrt
+80390d88 00000024 80390d88 0 tanf
+80390dac 00000024 80390dac 0 tanf
+80390dd0 00000024 80390dd0 0 tanf
+80390df4 00000020 80390df4 0 cPlayer::PostPhysicsUpdate(void)
+80390e14 000000f8 80390e14 0 TRKNubMainLoop
+80390f0c 00000024 80390f0c 0 cFielder::UpdatePlay(float)
+80390f30 00000018 80390f30 0 TRKConstructEvent
+80390f48 000000e0 80390f48 0 TRKPostEvent
+80391028 000000b4 80391028 0 TRKGetNextEvent
+803910dc 00000058 803910dc 0 TRKInitializeEventQueue
+80391134 00000028 80391134 0 TRKNubWelcome
+8039115c 00000024 8039115c 0 LexicalCast<PCc,f>(float &)
+80391180 0000014c 80391180 0 TRKInitializeNub
+803912cc 00000044 803912cc 0 TRKMessageSend
+80391310 000000f0 80391310 0 TRKReadBuffer_ui32
+80391400 00000098 80391400 0 TRKReadBuffer_ui8
+80391498 000000e8 80391498 0 TRKReadBuffer1_ui64
+80391580 000000fc 80391580 0 TRKAppendBuffer_ui32
+8039167c 00000068 8039167c 0 TRKAppendBuffer_ui8
+803916e4 000000fc 803916e4 0 TRKAppendBuffer1_ui64
+803917e0 0000008c 803917e0 0 TRKReadBuffer
+8039186c 000000a4 8039186c 0 TRKAppendBuffer
+80391910 00000030 80391910 0 TRKSetBufferPosition
+80391940 00000040 80391940 0 TRKResetBuffer
+80391980 00000064 80391980 0 TRKReleaseBuffer
+803919e4 0000002c 803919e4 0 TRKGetBuffer
+80391a10 000000c8 80391a10 0 TRKGetFreeBuffer
+80391ad8 00000074 80391ad8 0 TRKInitializeMessageBuffers
+80391b4c 00000008 80391b4c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80391b54 000000c4 80391b54 0 TRKInitializeSerialHandler
+80391c18 00000050 80391c18 0 TRKProcessInput
+80391c68 00000060 80391c68 0 TRKGetInput
+80391cc8 0000013c 80391cc8 0 TRKTestForPacket
+80391e04 00000004 80391e04 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80391e08 00000088 80391e08 0 usr_puts_serial
+80391e90 00000170 80391e90 0 TRKDispatchMessage
+80392000 00000008 80392000 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80392008 000000a8 80392008 0 TRKDoSetOption
+803920b0 000000a8 803920b0 0 TRKDoStop
+80392158 00000220 80392158 0 TRKDoStep
+80392378 000000b0 80392378 0 TRKDoContinue
+80392428 00000290 80392428 0 TRKDoWriteRegisters
+803926b8 000002e0 803926b8 0 TRKDoReadRegisters
+80392998 0000023c 80392998 0 TRKDoWriteMemory
+80392bd4 00000244 80392bd4 0 TRKDoReadMemory
+80392e18 00000008 80392e18 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80392e20 00000008 80392e20 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80392e28 00000058 80392e28 0 TRKDoOverride
+80392e80 00000058 80392e80 0 TRKDoOverride
+80392ed8 00000078 80392ed8 0 TRKDoDisconnect
+80392f50 00000064 80392f50 0 TRKDoConnect
+80392fb4 0000000c 80392fb4 0 SetTRKConnected
+80392fc0 00000010 80392fc0 0 THPSimpleGetCurrentFrame
+80392fd0 000000a8 80392fd0 0 OutputData
+80393078 00000110 80393078 0 HandlePositionFileSupportRequest
+80393188 000000e8 80393188 0 HandleCloseFileSupportRequest
+80393270 0000011c 80393270 0 HandleOpenFileSupportRequest
+8039338c 000001e0 8039338c 0 TRKRequestSend
+8039356c 00000220 8039356c 0 TRKSuppAccessFile
+8039378c 00000008 8039378c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80393794 00000008 80393794 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8039379c 00000008 8039379c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+803937a4 00000098 803937a4 0 TRKDoNotifyStopped
+8039383c 00000038 8039383c 0 TRK_flush_cache
+80393874 000000b8 80393874 0 TRK_fill_mem
+8039392c 00000008 8039392c 0 __TRK_get_MSR 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\debugger\embedded\MetroTRK\Processor\ppc\Generic\targimp
+80393934 00000008 80393934 0 __TRK_set_MSR 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\debugger\embedded\MetroTRK\Processor\ppc\Generic\targimp
+8039393c 0000003c 8039393c 0 TRK_ppc_memcpy
+80393c6c 00000078 80393c6c 0 TRKInterruptHandlerEnableInterrupts
+80393cc0 00000024 80393cc0 0 ReadFPSCR
+80393ce4 00000024 80393ce4 0 WriteFPSCR
+80393d08 000000c4 80393d08 0 TRKTargetAccessARAM
+80393dcc 00000010 80393dcc 0 TRKTargetSetInputPendingPtr
+80393ddc 00000018 80393ddc 0 TRKTargetStop
+80393df4 00000010 80393df4 0 TRKTargetSetInputPendingPtr
+80393e04 00000010 80393e04 0 THPSimpleGetCurrentFrame
+80393e14 00000200 80393e14 0 TRKTargetSupportRequest
+80394014 00000010 80394014 0 THPSimpleGetCurrentFrame
+80394024 000000b8 80394024 0 TRKTargetStepOutOfRange
+803940dc 000000ac 803940dc 0 TRKTargetSingleStep
+80394188 00000084 80394188 0 TRKTargetAddExceptionInfo
+8039420c 0000008c 8039420c 0 TRKTargetAddStopInfo
+80394298 00000190 80394298 0 TRKTargetInterrupt
+80394428 000000ac 80394428 0 TRKPostInterruptEvent
+803944d4 00000438 803944d4 0 TRKTargetAccessExtended2
+8039490c 00000170 8039490c 0 TRKTargetAccessExtended1
+80394a7c 0000050c 80394a7c 0 TRKTargetAccessFP
+80394f88 000000f4 80394f88 0 TRKTargetAccessDefault
+8039507c 0000004c 8039507c 0 TRKTargetReadInstruction
+803950c8 0000014c 803950c8 0 TRKTargetAccessMemory
+80395214 000002a4 80395214 0 TRKValidMemory32
+803954c0 00000008 803954c0 0 TRKPositionFile (entry of .text) 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\debugger\embedded\MetroTRK\Processor\
+803954c8 00000008 803954c8 0 TRKPositionFile (entry of .text) 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\debugger\embedded\MetroTRK\Processor\
+803954d0 00000008 803954d0 0 TRKPositionFile (entry of .text) 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\debugger\embedded\MetroTRK\Processor\
+803954d8 00000008 803954d8 0 TRKPositionFile (entry of .text) 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\debugger\embedded\MetroTRK\Processor\
+803954e0 0000018c 803954e0 0 TRKSaveExtended1Block
+80395698 000001b8 80395698 0 TRKRestoreExtended1Block
+80395850 00000098 80395850 0 InitMetroTRK
+803958e8 00000094 803958e8 0 InitMetroTRK_BBA
+8039597c 000001ec 8039597c 0 TRK__write_aram
+80395b68 00000134 80395b68 0 TRK__read_aram
+80395c9c 0000004c 80395c9c 0 TRKInitializeTarget
+80395ce8 0000012c 80395ce8 0 __TRK_copy_vectors
+80395e14 00000058 80395e14 0 TRKTargetTranslate
+80395e6c 00000020 80395e6c 0 cPlayer::PostPhysicsUpdate(void)
+80395e8c 00000058 80395e8c 0 TRK_main
+80395ee4 0000008c 80395ee4 0 TRKLoadContext
+80395f6c 00000004 80395f6c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80395f70 00000058 80395f70 0 InitializeProgramEndTrap
+80395fc8 00000030 80395fc8 0 TRK_board_display
+80395ff8 00000030 80395ff8 0 UnreserveEXI2Port
+80396028 00000030 80396028 0 UnreserveEXI2Port
+80396058 0000003c 80396058 0 TRKWriteUARTN
+80396094 0000003c 80396094 0 TRKWriteUARTN
+803960d0 00000030 803960d0 0 UnreserveEXI2Port
+80396100 00000048 80396100 0 EnableEXI2Interrupts
+80396148 00000050 80396148 0 TRKInitializeIntDrivenUART
+80396198 0000026c 80396198 0 InitMetroTRKCommTable
+80396404 00000038 80396404 0 TRKEXICallBack
+8039643c 00000034 8039643c 0 TRKTargetContinue
+80396470 00000010 80396470 0 SaveLoad::DidGameIDChange(void)
+80396480 0000000c 80396480 0 SetUseSerialIO
+8039648c 000000bc 8039648c 0 __TRK_write_console
+80396548 000000bc 80396548 0 __TRK_write_console
+80396604 00000008 80396604 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8039660c 00000008 8039660c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80396614 00000008 80396614 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8039661c 00000008 8039661c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80396624 00000008 80396624 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8039662c 00000008 8039662c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80396634 00000008 80396634 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8039663c 00000008 8039663c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80396644 00000008 80396644 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+8039664c 00000024 8039664c 0 LexicalCast<PCc,f>(float &)
+80396670 00000070 80396670 0 ddh_cc_peek
+803966e0 00000024 803966e0 0 LexicalCast<PCc,f>(float &)
+80396704 00000024 80396704 0 LexicalCast<PCc,f>(float &)
+80396728 000000c0 80396728 0 ddh_cc_write
+803967e8 000000ec 803967e8 0 ddh_cc_read
+803968d4 00000008 803968d4 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+803968dc 00000024 803968dc 0 ddh_cc_open
+80396900 00000008 80396900 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80396908 00000088 80396908 0 ddh_cc_initialize
+80396990 00000108 80396990 0 CircleBufferReadBytes
+80396a98 00000108 80396a98 0 CircleBufferWriteBytes
+80396ba0 00000050 80396ba0 0 CircleBufferInitialize
+80396bf0 00000008 80396bf0 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+80396bf8 00000024 80396bf8 0 LexicalCast<PCc,f>(float &)
+80396c1c 00000070 80396c1c 0 ddh_cc_peek
+80396c8c 00000024 80396c8c 0 LexicalCast<PCc,f>(float &)
+80396cb0 00000024 80396cb0 0 LexicalCast<PCc,f>(float &)
+80396cd4 000000c0 80396cd4 0 ddh_cc_write
+80396d94 000000f4 80396d94 0 gdev_cc_read
+80396e88 00000008 80396e88 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80396e90 00000024 80396e90 0 ddh_cc_open
+80396eb4 00000008 80396eb4 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+80396ebc 00000088 80396ebc 0 ddh_cc_initialize
+80396f44 00000050 80396f44 0 ___blank(char *,...)
+80396f94 00000024 80396f94 0 cFielder::UpdatePlay(float)
+80396fb8 00000030 80396fb8 0 MWEnterCriticalSection
+80396fe8 00000004 80396fe8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80396fec 00000298 80396fec 0 DBGEXIImm
+80397284 000000ac 80397284 0 DBGReadStatus
+80397330 000000dc 80397330 0 DBGRead
+8039740c 000000dc 8039740c 0 DBGWrite
+803974e8 000000ac 803974e8 0 DBGReadStatus
+80397594 0000003c 80397594 0 MWCallback
+803975d0 00000040 803975d0 0 DBGHandler
+80397688 00000054 80397688 0 DBInitInterrupts
+80397804 00000260 80397804 0 DBWrite
+80397a64 00000004 80397a64 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80397a68 00000004 80397a68 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+80397a6c 00000008 80397a6c 0 __TRK_get_MSR 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\debugger\embedded\MetroTRK\Processor\ppc\Generic\targimp
+80397a74 00000008 80397a74 0 __TRK_set_MSR 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\debugger\embedded\MetroTRK\Processor\ppc\Generic\targimp
+80397a7c 00000008 80397a7c 0 PPCMfhid2 	base.a PPCArch.o
+80397a84 00000008 80397a84 0 PPCMtwpar 	base.a PPCArch.o
+80397a8c 00000008 80397a8c 0 PPCMfhid2 	base.a PPCArch.o
+80397a94 00000008 80397a94 0 PPCMtwpar 	base.a PPCArch.o
+80397a9c 00000008 80397a9c 0 PPCMtwpar 	base.a PPCArch.o
+80397aa4 00000008 80397aa4 0 PPCSync 	base.a PPCArch.o
+80397aac 0000001c 80397aac 0 PPCHalt
+80397ac0 00000008 80397ac0 0 PPCMtwpar 	base.a PPCArch.o
+80397ac8 00000008 80397ac8 0 PPCMtwpar 	base.a PPCArch.o
+80397ad0 00000008 80397ad0 0 PPCMtwpar 	base.a PPCArch.o
+80397ad8 00000008 80397ad8 0 PPCMtwpar 	base.a PPCArch.o
+80397ae0 00000008 80397ae0 0 PPCMtwpar 	base.a PPCArch.o
+80397ae8 00000008 80397ae8 0 PPCMtwpar 	base.a PPCArch.o
+80397af0 00000020 80397af0 0 PPCMffpscr
+80397b10 00000028 80397b10 0 PPCMtfpscr
+80397b38 00000008 80397b38 0 PPCMfhid2 	base.a PPCArch.o
+80397b40 00000008 80397b40 0 PPCMtwpar 	base.a PPCArch.o
+80397b54 00000008 80397b54 0 PPCMtwpar 	base.a PPCArch.o
+80397b5c 00000028 80397b5c 0 PPCDisableSpeculation
+80397b84 00000008 80397b84 0 PPCSetFpNonIEEEMode 	base.a PPCArch.o
+80397b8c 00000028 80397b8c 0 DBInit
+80397bb4 00000048 80397bb4 0 __DBExceptionDestinationAux
+80397bfc 0000002c 80397bfc 0 __DBExceptionDestination
+80397c0c 0000001c 80397c0c 0 __DBIsExceptionMarked
+80397c28 00000050 80397c28 0 ___blank(char *,...)
+80397c78 00000128 80397c78 0 __OSFPRInit
+80397da0 00000028 80397da0 0 OSGetConsoleType
+80397dc8 0000003c 80397dc8 0 InquiryCallback
+803982e4 00000280 803982e4 0 OSExceptionInit
+80398564 00000024 80398564 0 __OSDBIntegrator
+8039858c 0000001c 8039858c 0 __OSSetExceptionHandler
+803985a8 00000014 803985a8 0 __OSGetExceptionHandler
+80398658 000000ac 80398658 0 OSDefaultExceptionHandler
+803986b0 00000054 803986b0 0 __OSPSInit
+80398704 00000014 80398704 0 __OSGetDIConfig
+80398718 0000002c 80398718 0 OSRegisterVersion
+80398744 00000058 80398744 0 OSInitAlarm
+8039879c 00000010 8039879c 0 nlListContainer<P8SaveData>::__ct(void)
+803987ac 00000250 803987ac 0 InsertAlarm
+803989fc 00000068 803989fc 0 OSSetAlarm
+80398a64 0000011c 80398a64 0 OSCancelAlarm
+80398b80 00000230 80398b80 0 DecrementerExceptionCallback
+80398db0 000000f0 80398db0 0 DecrementerExceptionHandler
+80398ea0 000000ac 80398ea0 0 DLInsert
+80398f4c 000000fc 80398f4c 0 OSAllocFromHeap
+80399048 0000007c 80399048 0 OSFreeToHeap
+803990c4 00000010 803990c4 0 glx_SetLoadCallback(unsigned long (*)(unsigned long))
+803990d4 00000070 803990d4 0 OSInitAlloc
+80399144 0000006c 80399144 0 OSCreateHeap
+803991b0 00000008 803991b0 0 IPCGetBufferLo 	ipc.a ipcMain.o
+803991b8 00000008 803991b8 0 IPCGetBufferLo 	ipc.a ipcMain.o
+803991c0 00000008 803991c0 0 IPCSetBufferLo 	ipc.a ipcMain.o
+803991c8 00000008 803991c8 0 IPCSetBufferLo 	ipc.a ipcMain.o
+803991fc 000001bc 803991fc 0 __OSInitAudioSystem
+803993b8 000000d8 803993b8 0 __OSStopAudioSystem
+80399490 00000014 80399490 0 DCEnable
+803994a4 0000002c 803994a4 0 DCInvalidateRange
+803994d0 00000030 803994d0 0 DCFlushRange
+80399500 00000030 80399500 0 DCStoreRange
+80399530 0000002c 80399530 0 DCFlushRangeNoSync
+8039955c 0000002c 8039955c 0 DCStoreRangeNoSync
+80399588 0000002c 80399588 0 DCZeroRange
+803995b4 00000034 803995b4 0 ICInvalidateRange
+803995e8 00000010 803995e8 0 ICFlashInvalidate
+803995f8 00000014 803995f8 0 ICEnable
+8039960c 000000cc 8039960c 0 __LCEnable
+803996d8 00000038 803996d8 0 LCEnable
+80399710 00000028 80399710 0 LCDisable
+80399738 00000024 80399738 0 LCStoreBlocks
+8039975c 00000024 8039975c 0 LCStoreBlocks
+80399780 000000ac 80399780 0 LCStoreData
+8039982c 000000ac 8039982c 0 LCStoreData
+803998d8 00000014 803998d8 0 LCQueueWait
+803998ec 00000098 803998ec 0 L2GlobalInvalidate
+80399984 00000160 80399984 0 DMAErrorHandler
+80399ae4 000000f4 80399ae4 0 __OSCacheInit
+80399bd8 00000124 80399bd8 0 __OSLoadFPUContext
+80399cfc 00000128 80399cfc 0 __OSSaveFPUContext
+80399e2c 0000005c 80399e2c 0 OSSetCurrentContext
+80399e88 0000000c 80399e88 0 OSGetCurrentContext
+80399e94 00000080 80399e94 0 OSSaveContext
+80399fec 00000008 80399fec 0 OSGetStackPointer 	os.a OSContext.o
+80399ff4 00000030 80399ff4 0 OSSwitchFiber 	os.a OSContext.o
+8039a024 00000024 8039a024 0 OSClearContext
+8039a104 000002a8 8039a104 0 OSDumpContext
+8039a430 00000048 8039a430 0 __OSContextInit
+8039a478 00000080 8039a478 0 OSReport
+8039a4f8 0000012c 8039a4f8 0 OSPanic
+8039a624 00000218 8039a624 0 OSSetErrorHandler
+8039a83c 000002e8 8039a83c 0 __OSUnhandledException
+8039ad54 0000000c 8039ad54 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+8039cca0 00000014 8039cca0 0 OSDisableInterrupts
+8039ccb4 00000014 8039ccb4 0 OSEnableInterrupts
+8039ccc8 00000024 8039ccc8 0 OSRestoreInterrupts
+8039ccec 0000001c 8039ccec 0 __OSSetInterruptHandler
+8039cd08 00000014 8039cd08 0 __OSGetInterruptHandler
+8039cd1c 00000074 8039cd1c 0 __OSInterruptInit
+8039cd90 000002d8 8039cd90 0 SetInterruptMask
+8039d068 00000088 8039d068 0 __OSMaskInterrupts
+8039d0f0 00000088 8039d0f0 0 __OSUnmaskInterrupts
+8039d178 00000344 8039d178 0 __OSDispatchInterrupt
+8039d4bc 00000068 8039d4bc 0 ExternalInterruptHandler
+8039d50c 00000018 8039d50c 0 __OSModuleInit
+8039d524 0000003c 8039d524 0 OnReset
+8039d560 0000006c 8039d560 0 MEMIntrruptHandler
+8039d6e4 00000118 8039d6e4 0 __OSInitMemoryProtection
+8039d7fc 00000070 8039d7fc 0 __OSUnlockAllMutex
+8039da88 0000000c 8039da88 0 AXFXSetHooks 	axfx.a AXFXHooks.o
+8039da94 00000014 8039da94 0 AXFXGetHooks 	axfx.a AXFXHooks.o
+8039daa8 00000084 8039daa8 0 OSRegisterResetFunction
+8039dcac 00000048 8039dcac 0 __OSDoHotReset
+8039df2c 000000f4 8039df2c 0 __OSResetSWInterruptHandler
+8039e020 00000298 8039e020 0 OSGetResetButtonState
+8039e2b8 00000060 8039e2b8 0 WriteSramCallback
+8039e318 00000118 8039e318 0 WriteSram
+8039e430 0000013c 8039e430 0 __OSInitSram
+8039e56c 0000005c 8039e56c 0 __OSLockSram
+8039e5c8 0000005c 8039e5c8 0 __OSLockSramEx
+8039e624 0000033c 8039e624 0 UnlockSram
+8039e960 00000024 8039e960 0 __OSUnlockSram
+8039e984 00000024 8039e984 0 __OSUnlockSram
+8039e9a8 00000010 8039e9a8 0 THPSimpleGetCurrentFrame
+8039eadc 00000080 8039eadc 0 OSGetSoundMode
+8039eb5c 000000a4 8039eb5c 0 OSSetSoundMode
+8039ec00 00000070 8039ec00 0 OSGetProgressiveMode
+8039ec70 000000a4 8039ec70 0 OSSetSoundMode
+8039ed14 0000006c 8039ed14 0 OSGetLanguage
+8039ed80 00000070 8039ed80 0 OSGetProgressiveMode
+8039edf0 000000a4 8039edf0 0 OSSetSoundMode
+8039ee94 00000084 8039ee94 0 OSGetWirelessID
+8039ef18 000000ac 8039ef18 0 OSSetWirelessID
+8039efc4 00000070 8039efc4 0 OSGetGbsMode
+8039f034 000000b8 8039f034 0 OSSetGbsMode
+8039f10c 00000064 8039f10c 0 __OSInitSystemCall
+8039f170 00000004 8039f170 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+8039f1e8 00000158 8039f1e8 0 __OSThreadInit
+8039f340 00000010 8039f340 0 nlListContainer<P8SaveData>::__ct(void)
+8039f350 0000000c 8039f350 0 OSGetCurrentContext
+8039f35c 00000040 8039f35c 0 OSDisableScheduler
+8039f39c 00000040 8039f39c 0 OSDisableScheduler
+8039f3dc 00000068 8039f3dc 0 UnsetRun
+8039f444 0000003c 8039f444 0 __OSGetEffectivePriority
+8039f480 000001c0 8039f480 0 SetEffectivePriority
+8039f640 00000228 8039f640 0 SelectThread
+8039f868 00000030 8039f868 0 __OSReschedule
+8039fb64 000001bc 8039fb64 0 OSCancelThread
+8039fd20 00000288 8039fd20 0 OSResumeThread
+8039ffa8 00000170 8039ffa8 0 OSSuspendThread
+803a0118 000000ec 803a0118 0 OSSleepThread
+803a0204 00000104 803a0204 0 OSWakeupThread
+803a0b84 000000ac 803a0b84 0 OSClearStack
+803a0c30 00000018 803a0c30 0 OSGetTime
+803a0c48 00000008 803a0c48 0 OSGetTick 	os.a OSTime.o
+803a0c50 00000064 803a0c50 0 __OSGetSystemTime
+803a0cb4 0000019c 803a0cb4 0 GetDates
+803a0e50 00000204 803a0e50 0 OSTicksToCalendarTime
+803a1054 00000020 803a1054 0 IFFifoAlloc
+803a1074 00000054 803a1074 0 __init_cpp
+803a10c8 00000020 803a10c8 0 IFFifoAlloc
+803a10e8 0000002c 803a10e8 0 PSMTXIdentity
+803a1114 00000034 803a1114 0 PSMTXCopy 	mtx.a mtx.o
+803a1148 000000cc 803a1148 0 PSMTXConcat
+803a1214 00000034 803a1214 0 PSMTXTrans
+803a1248 00000028 803a1248 0 PSMTXScale
+803a1270 00000058 803a1270 0 PSMTXScaleApply 	mtx.a mtx.o
+803a135c 000000d0 803a135c 0 C_MTXPerspective
+803a142c 00000098 803a142c 0 C_MTXOrtho
+803a14c4 00000044 803a14c4 0 PSMTX44Copy
+803a1508 00000104 803a1508 0 PSMTX44Concat
+803a1650 00000040 803a1650 0 __DVDInitWA
+803a1690 000002e0 803a1690 0 __DVDInterruptHandler
+803a1970 00000084 803a1970 0 AlarmHandler
+803a19f4 00000070 803a19f4 0 AlarmHandlerForTimeout
+803a1a64 00000110 803a1a64 0 Read
+803a1b74 00000080 803a1b74 0 SeekTwiceBeforeRead
+803a1bf4 00000298 803a1bf4 0 DVDLowRead
+803a1e8c 00000094 803a1e8c 0 DVDLowSeek
+803a1f20 0000002c 803a1f20 0 DVDLowWaitCoverClose
+803a1f4c 000000a4 803a1f4c 0 DVDLowReadDiskID
+803a1ff0 0000008c 803a1ff0 0 DVDLowStopMotor
+803a207c 0000008c 803a207c 0 DVDLowStopMotor
+803a2108 0000009c 803a2108 0 DVDLowInquiry
+803a21a4 00000098 803a21a4 0 DVDLowAudioStream
+803a223c 0000008c 803a223c 0 DVDLowRequestAudioStatus
+803a22c8 0000009c 803a22c8 0 DVDLowAudioBufferConfig
+803a2364 000000bc 803a2364 0 DVDLowReset
+803a2420 00000014 803a2420 0 DVDLowBreak
+803a2434 0000001c 803a2434 0 DVDLowClearCallback
+803a2450 00000044 803a2450 0 __DVDLowSetWAType
+803a2494 00000038 803a2494 0 __DVDLowTestAlarm
+803a24cc 00000038 803a24cc 0 __DVDFSInit
+803a2504 000002f4 803a2504 0 DVDConvertPathToEntrynum
+803a27f8 00000074 803a27f8 0 DVDFastOpen
+803a2934 00000024 803a2934 0 DVDClose
+803a2b7c 000000c0 803a2b7c 0 DVDReadAsyncPrio
+803a2c3c 00000030 803a2c3c 0 cbForReadAsync
+803a2cd8 00000004 803a2cd8 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+803a2db4 00000094 803a2db4 0 stateReadingFST
+803a2f74 00000034 803a2f74 0 stateTimeout
+803a2fa8 00000028 803a2fa8 0 stateGettingError
+803a2fd0 000000b4 803a2fd0 0 CategorizeError
+803a33c4 00000028 803a33c4 0 stateGettingError
+803a352c 000000e0 803a352c 0 stateCheckID
+803a360c 00000034 803a360c 0 stateCheckID3
+803a3640 00000034 803a3640 0 stateCheckID3
+803a36dc 00000038 803a36dc 0 stateCheckID2
+803a39d8 00000044 803a39d8 0 AlarmHandler
+803a3af0 00000030 803a3af0 0 stateCoverClosed_CMD
+803a3b84 00000028 803a3b84 0 stateGettingError
+803a4918 000000dc 803a4918 0 DVDReadAbsAsyncPrio
+803a49f4 000000d0 803a49f4 0 DVDReadAbsAsyncForBS
+803a4ac4 000000d4 803a4ac4 0 DVDReadDiskID
+803a4b98 000000bc 803a4b98 0 DVDCancelStreamAsync
+803a4c54 000000d0 803a4c54 0 DVDInquiryAsync
+803a4d24 00000044 803a4d24 0 DVDReset
+803a4d68 0000004c 803a4d68 0 DVDGetCommandBlockStatus
+803a4db4 000000ac 803a4db4 0 DVDGetDriveStatus
+803a4e60 00000010 803a4e60 0 glx_SetLoadCallback(unsigned long (*)(unsigned long))
+803a4e70 00000050 803a4e70 0 DVDResume
+803a4ec0 0000027c 803a4ec0 0 DVDCancelAsync
+803a513c 000000ac 803a513c 0 DVDCancel
+803a51e8 00000024 803a51e8 0 cbForCancelSync
+803a520c 00000008 803a520c 0 DVDGetCurrentDiskID 	dvd.a dvd.o
+803a5214 000000f8 803a5214 0 DVDCheckDisk
+803a530c 0000011c 803a530c 0 __DVDPrepareResetAsync
+803a5428 00000038 803a5428 0 __DVDTestAlarm
+803a5460 00000038 803a5460 0 __DVDClearWaitingQueue
+803a5498 00000068 803a5498 0 __DVDPushWaitingQueue
+803a5500 000000a0 803a5500 0 __DVDPopWaitingQueue
+803a55a0 00000058 803a55a0 0 __DVDCheckWaitingQueue
+803a55f8 00000060 803a55f8 0 __DVDDequeueWaitingQueue
+803a5658 0000011c 803a5658 0 ErrorCode2Num
+803a5774 0000007c 803a5774 0 __DVDStoreErrorCode
+803a57f0 000000f8 803a57f0 0 DVDCompareDiskID
+803a59e4 00000030 803a59e4 0 __DVDPrintFatalMessage
+803a5a14 000000d8 803a5a14 0 cb
+803a5aec 00000168 803a5aec 0 __fstLoad
+803a5c54 00000274 803a5c54 0 __VIRetraceHandler
+803a5ec8 00000044 803a5ec8 0 AIRegisterDMACallback
+803a5f0c 00000044 803a5f0c 0 AIRegisterDMACallback
+803a61fc 000004b0 803a61fc 0 VIInit
+803a66ac 00000054 803a66ac 0 VIWaitForRetrace
+803a6700 000002d4 803a6700 0 setFbbRegs
+803a69d4 000001a0 803a69d4 0 setVerticalRegs
+803a7710 00000130 803a7710 0 VIFlush
+803a7840 0000006c 803a7840 0 VISetNextFrameBuffer
+803a78ac 0000007c 803a78ac 0 VISetBlack
+803a7928 00000008 803a7928 0 IPCGetBufferLo 	ipc.a ipcMain.o
+803a796c 00000068 803a796c 0 getCurrentFieldEvenOdd
+803a7a70 00000098 803a7a70 0 VIGetCurrentLine
+803a7b08 00000068 803a7b08 0 VIGetTvFormat
+803a7b70 0000003c 803a7b70 0 VIGetDTVStatus
+803a7bac 0000021c 803a7bac 0 __VIDisplayPositionToXY
+803a7dc8 00000060 803a7dc8 0 __VIGetCurrentPosition
+803a7e28 000001a4 803a7e28 0 UpdateOrigin
+803a7fcc 000000c4 803a7fcc 0 PADOriginCallback
+803a8090 000000cc 803a8090 0 PADOriginUpdateCallback
+803a815c 000000d8 803a815c 0 PADProbeCallback
+803a8234 0000032c 803a8234 0 PADTypeAndStatusCallback
+803a8560 00000140 803a8560 0 PADReceiveCheckCallback
+803a86a0 00000110 803a86a0 0 PADReset
+803a87b0 00000114 803a87b0 0 PADRecalibrate
+803a88c4 00000150 803a88c4 0 PADInit
+803a8a14 00000300 803a8a14 0 PADRead
+803a8de0 000000b8 803a8de0 0 PADControlMotor
+803a8e98 00000060 803a8e98 0 PADSetSpec
+803a8ef8 00000174 803a8ef8 0 SPEC0_MakeStatus
+803a906c 00000174 803a906c 0 SPEC0_MakeStatus
+803a91e0 00000470 803a91e0 0 SPEC2_MakeStatus
+803a9650 000000bc 803a9650 0 OnReset
+803a970c 00000060 803a970c 0 SamplingHandler
+803a976c 00000054 803a976c 0 PADSetSamplingCallback
+803a97c0 0000007c 803a97c0 0 __PADDisableRecalibration
+803a983c 00000044 803a983c 0 AIRegisterDMACallback
+803a9880 00000088 803a9880 0 AIInitDMA
+803a9908 00000018 803a9908 0 AIStartDMA
+803a9920 00000018 803a9920 0 AIStopDMA
+803a9938 0000001c 803a9938 0 AIGetDMAStartAddr
+803a9954 000000d8 803a9954 0 AISetStreamPlayState
+803a9a2c 00000010 803a9a2c 0 AIGetStreamPlayState
+803a9a3c 000000e0 803a9a3c 0 AISetDSPSampleRate
+803a9b1c 00000014 803a9b1c 0 AIGetDSPSampleRate
+803a9b30 000000d4 803a9b30 0 __AI_set_stream_sample_rate
+803a9c04 00000010 803a9c04 0 AIGetStreamPlayState
+803a9c14 0000001c 803a9c14 0 AISetStreamVolLeft
+803a9c30 00000010 803a9c30 0 AIGetStreamPlayState
+803a9c40 0000001c 803a9c40 0 AISetStreamVolLeft
+803a9c5c 00000010 803a9c5c 0 AIGetStreamPlayState
+803a9c6c 0000016c 803a9c6c 0 AIInit
+803a9dd8 0000007c 803a9dd8 0 __AISHandler
+803a9e54 000000ac 803a9e54 0 __AIDHandler
+803a9f00 00000058 803a9f00 0 __AICallbackStackSwitch
+803a9f58 000001e4 803a9f58 0 __AI_SRC_INIT
+803aa13c 00000044 803aa13c 0 AIRegisterDMACallback
+803aa180 0000003c 803aa180 0 ARGetDMAStatus
+803aa1bc 000000f0 803aa1bc 0 ARStartDMA
+803aa2ac 000000c4 803aa2ac 0 ARInit
+803aa370 00000008 803aa370 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+803aa378 00000078 803aa378 0 __ARHandler
+803aa3f0 00000020 803aa3f0 0 __ARClearInterrupt
+803aa410 00000010 803aa410 0 __ARGetInterruptStatus
+803aa420 000017f4 803aa420 0 __ARChecksize
+803abc14 00000100 803abc14 0 __ARQServiceQueueLo
+803abd14 00000004 803abd14 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+803abd18 000000cc 803abd18 0 __ARQInterruptServiceRoutine
+803abde4 00000070 803abde4 0 ARQInit
+803abe54 0000015c 803abe54 0 ARQPostRequest
+803ac6a8 00000010 803ac6a8 0 LooseBallAnims::Destroy(void)
+803aca4c 00000008 803aca4c 0 IPCGetBufferLo 	ipc.a ipcMain.o
+803ad164 00000004 803ad164 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+803ad3dc 0000000c 803ad3dc 0 FEAudio::ResetRandomVoiceToggleSFX(void)
+803ad930 00000044 803ad930 0 AIRegisterDMACallback
+803ad974 0000000c 803ad974 0 GetOneTimerLeadGroundContactAnims(void)
+803adda4 00000004 803adda4 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+803ade3c 00000008 803ade3c 0 IPCGetBufferLo 	ipc.a ipcMain.o
+803ae808 0000000c 803ae808 0 GetOneTimerLeadGroundContactAnims(void)
+803aea5c 00000004 803aea5c 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+803af118 00000008 803af118 0 IPCSetBufferLo 	ipc.a ipcMain.o
+803b1104 00000010 803b1104 0 __ARGetInterruptStatus
+803b1114 00000010 803b1114 0 __ARGetInterruptStatus
+803b1124 00000018 803b1124 0 DSPReadMailFromDSP
+803b113c 00000014 803b113c 0 DSPSendMailToDSP
+803b1150 000000c4 803b1150 0 DSPInit
+803b1214 00000008 803b1214 0 IPCGetBufferLo 	ipc.a ipcMain.o
+803b121c 00000070 803b121c 0 DSPAddTask
+803b128c 00000040 803b128c 0 DSPCancelTask
+803b1394 00000050 803b1394 0 ___blank(char *,...)
+803b13e4 00000424 803b13e4 0 __DSPHandler
+803b1808 000001a0 803b1808 0 __DSP_exec_task
+803b19a8 0000018c 803b19a8 0 __DSP_boot_task
+803b1b34 000000a0 803b1b34 0 __DSP_insert_task
+803b1bd4 00000094 803b1bd4 0 __DSP_remove_task
+803b1c68 00000004 803b1c68 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+803b1ca0 000000d8 803b1ca0 0 __CARDExtHandler
+803b1d78 00000118 803b1d78 0 __CARDExiHandler
+803b1e90 000000a8 803b1e90 0 __CARDTxHandler
+803b1f38 00000084 803b1f38 0 __CARDUnlockedHandler
+803b1fbc 000000c0 803b1fbc 0 __CARDEnableInterrupt
+803b207c 000000f0 803b207c 0 __CARDReadStatus
+803b216c 000000f0 803b216c 0 __CARDReadStatus
+803b225c 000000ac 803b225c 0 __CARDClearStatus
+803b2308 000000a4 803b2308 0 TimeoutHandler
+803b264c 00000110 803b264c 0 UnlockedCallback
+803b2980 00000134 803b2980 0 __CARDReadSegment
+803b2d00 000000ac 803b2d00 0 CARDInit
+803b2dac 00000008 803b2dac 0 __CARDGetFontEncode 	card.a CARDBios.o
+803b2db4 00000038 803b2db4 0 __CARDSetDiskID
+803b2dec 000000b8 803b2dec 0 __CARDGetControlBlock
+803b2ea4 00000064 803b2ea4 0 __CARDPutControlBlock
+803b2f38 00000150 803b2f38 0 CARDFreeBlocks
+803b3120 00000050 803b3120 0 OnReset
+803b318c 0000016c 803b318c 0 bitrev
+803b32f8 00000144 803b32f8 0 ReadArrayUnlock
+803b343c 000000c4 803b343c 0 DummyLen
+803b3500 00000b58 803b3500 0 __CARDUnlock
+803b4058 00000070 803b4058 0 InitCallback
+803b40c8 00000324 803b40c8 0 DoneCallback
+803b43ec 000000dc 803b43ec 0 BlockReadCallback
+803b44c8 00000064 803b44c8 0 __CARDRead
+803b467c 00000008 803b467c 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+803b4684 000000d4 803b4684 0 WriteCallback
+803b4758 000000c8 803b4758 0 EraseCallback
+803b4820 00000118 803b4820 0 __CARDAllocBlock
+803b4938 0000009c 803b4938 0 __CARDFreeBlock
+803b49d4 000000ac 803b49d4 0 __CARDUpdateFatBlock
+803b4a80 00000008 803b4a80 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+803b4a88 000000d0 803b4a88 0 WriteCallback
+803b4b58 000000c8 803b4b58 0 EraseCallback
+803b4c20 000000c4 803b4c20 0 __CARDUpdateDir
+803b4ce4 000001b0 803b4ce4 0 __CARDCheckSum
+803b4e94 00000284 803b4e94 0 VerifyID
+803b5118 00000240 803b5118 0 VerifyDir
+803b5358 00000284 803b5358 0 VerifyFAT
+803b55dc 0000008c 803b55dc 0 __CARDVerify
+803b5668 00000590 803b5668 0 CARDCheckExAsync
+803b5bf8 00000028 803b5bf8 0 CARDCheckAsync
+803b5c74 000000cc 803b5c74 0 IsCard
+803b5d40 0000017c 803b5d40 0 CARDProbeEx
+803b6310 00000138 803b6310 0 __CARDMountCallback
+803b6448 000001a0 803b6448 0 CARDMountAsync
+803b6630 0000009c 803b6630 0 DoUnmount
+803b66cc 000000ac 803b66cc 0 CARDUnmount
+803b6778 00000144 803b6778 0 FormatCallback
+803b68bc 00000658 803b68bc 0 __CARDFormatRegionAsync
+803b6f14 00000048 803b6f14 0 CARDFormatAsync
+803b6f5c 00000068 803b6f5c 0 __CARDCompareFileName
+803b6fc4 00000094 803b6fc4 0 __CARDAccess
+803b7058 00000134 803b7058 0 __CARDIsWritable
+803b718c 000000f4 803b718c 0 __CARDIsReadable
+803b7280 00000150 803b7280 0 __CARDGetFileNo
+803b74d4 0000011c 803b74d4 0 CARDOpen
+803b75f0 00000054 803b75f0 0 CARDClose
+803b7644 00000008 803b7644 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+803b764c 00000130 803b764c 0 CreateCallbackFat
+803b777c 00000220 803b777c 0 CARDCreateAsync
+803b799c 000001b8 803b799c 0 __CARDSeek
+803b7b54 00000130 803b7b54 0 ReadCallback
+803b7c84 00000144 803b7c84 0 CARDReadAsync
+803b7dc8 00000170 803b7dc8 0 WriteCallback
+803b7f38 000000b0 803b7f38 0 EraseCallback
+803b7fe8 00000114 803b7fe8 0 CARDWriteAsync
+803b80fc 000000a4 803b80fc 0 DeleteCallback
+803b82cc 00000110 803b82cc 0 CARDDeleteAsync
+803b83dc 000001f8 803b83dc 0 UpdateIconOffsets
+803b85d4 00000114 803b85d4 0 CARDGetStatus
+803b86e8 00000174 803b86e8 0 CARDSetStatusAsync
+803b8b64 00000004 803b8b64 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+803b8b68 00000004 803b8b68 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+803b8b6c 00000008 803b8b6c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+803b8b74 00000008 803b8b74 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+803b8b7c 00000008 803b8b7c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+803b8b84 00000004 803b8b84 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+803b8b88 00000004 803b8b88 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+803b8b8c 00000008 803b8b8c 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+803b8b94 00000008 803b8b94 0 gdev_cc_shutdown 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\cc\exi2\GCN\EXI2_GDEV_GCN\mai
+803b8b9c 000000f4 803b8b9c 0 SetExiInterruptMask
+803b8c90 0000025c 803b8c90 0 EXIImm
+803b8eec 000000a0 803b8eec 0 EXIImmEx
+803b8f8c 000000ec 803b8f8c 0 EXIDma
+803b9078 0000024c 803b9078 0 EXISync
+803b92c4 00000048 803b92c4 0 EXIClearInterrupts
+803b930c 0000007c 803b930c 0 EXISetExiCallback
+803b9388 00000174 803b9388 0 __EXIProbe
+803b94fc 00000080 803b94fc 0 EXIProbe
+803b957c 000000b4 803b957c 0 EXIProbeEx
+803b9630 0000010c 803b9630 0 EXIAttach
+803b973c 000000bc 803b973c 0 EXIDetach
+803b97f8 0000012c 803b97f8 0 EXISelect
+803b9924 00000110 803b9924 0 EXIDeselect
+803b9a34 000000c8 803b9a34 0 EXIIntrruptHandler
+803b9afc 00000218 803b9afc 0 TCIntrruptHandler
+803b9d14 000000d0 803b9d14 0 EXTIntrruptHandler
+803b9de4 000001d4 803b9de4 0 EXIInit
+803b9fb8 000000f4 803b9fb8 0 EXILock
+803ba0ac 000000dc 803ba0ac 0 EXIUnlock
+803ba188 00000018 803ba188 0 EXIGetState
+803ba1a0 00000028 803ba1a0 0 UnlockedHandler
+803ba1c8 000003b0 803ba1c8 0 EXIGetID
+803ba578 0000018c 803ba578 0 ProbeBarnacle
+803ba704 000001bc 803ba704 0 __OSEnableBarnacle
+803ba8c0 00000070 803ba8c0 0 InitializeUART
+803bab30 00000020 803bab30 0 SIBusy
+803bab50 0000003c 803bab50 0 SIIsChanBusy
+803bab8c 000002fc 803bab8c 0 CompleteTransfer
+803bae88 00000344 803bae88 0 SIInterruptHandler
+803bb1cc 00000098 803bb1cc 0 SIEnablePollingInterrupt
+803bb264 000000cc 803bb264 0 SIRegisterPollingHandler
+803bb330 000000f4 803bb330 0 SIUnregisterPollingHandler
+803bb424 000000b4 803bb424 0 SIInit
+803bb4d8 0000020c 803bb4d8 0 __SITransfer
+803bb6e4 0000007c 803bb6e4 0 SIGetStatus
+803bb760 00000014 803bb760 0 SISetCommand
+803bb774 00000010 803bb774 0 SITransferCommands
+803bb784 0000006c 803bb784 0 SISetXY
+803bb7f0 0000009c 803bb7f0 0 SIEnablePolling
+803bb88c 0000006c 803bb88c 0 SIDisablePolling
+803bb8f8 000000d4 803bb8f8 0 SIGetResponseRaw
+803bb9cc 000000c4 803bb9cc 0 SIGetResponse
+803bba90 0000008c 803bba90 0 AlarmHandler
+803bbb1c 0000016c 803bbb1c 0 SITransfer
+803bbc88 00000298 803bbc88 0 GetTypeCallback
+803bbf20 000001c4 803bbf20 0 SIGetType
+803bc0e4 0000013c 803bc0e4 0 SIGetTypeAsync
+803bc220 000000e4 803bc220 0 SISetSamplingRate
+803bc304 00000024 803bc304 0 SIRefreshSamplingRate
+803bc328 00000244 803bc328 0 THPVideoDecode
+803bc56c 00000044 803bc56c 0 __THPSetupBuffers
+803bc5b0 0000013c 803bc5b0 0 __THPReadFrameHeader
+803bc6ec 0000011c 803bc6ec 0 __THPReadScaneHeader
+803bc808 000003bc 803bc808 0 __THPReadQuantizationTable
+803bcbc4 000001e0 803bcbc4 0 __THPReadHuffmanTableSpecification
+803bcda4 000000f0 803bcda4 0 __THPHuffGenerateSizeTable
+803bce94 00000068 803bce94 0 __THPHuffGenerateCodeTable
+803bcefc 000001bc 803bcefc 0 __THPHuffGenerateDecoderTables
+803bd0b8 00000054 803bd0b8 0 __THPRestartDefinition
+803bd10c 0000024c 803bd10c 0 __THPPrepBitStream
+803bd358 0000010c 803bd358 0 __THPDecompressYUV
+803bd464 00001a88 803bd464 0 __THPDecompressiMCURow512x448
+803beeec 00001a8c 803beeec 0 __THPDecompressiMCURow640x480
+803c0978 00001aac 803c0978 0 __THPDecompressiMCURowNxN
+803c2424 0000067c 803c2424 0 __THPHuffDecodeDCTCompY
+803c2aa0 000006a8 803c2aa0 0 __THPHuffDecodeDCTCompU
+803c3148 000006a8 803c3148 0 __THPHuffDecodeDCTCompV
+803c37f0 000000a0 803c37f0 0 THPInit
+803c3890 00000464 803c3890 0 THPAudioDecode
+803c3cf4 00000090 803c3cf4 0 __THPAudioGetNewSample
+803c3d84 0000003c 803c3d84 0 __THPAudioInitialize
+803c3dc0 000000fc 803c3dc0 0 __GXDefaultTexRegionCallback
+803c3ebc 00000024 803c3ebc 0 __GXDefaultTlutRegionCallback
+803c3ee0 00000190 803c3ee0 0 __GXShutdown
+803c4814 00000938 803c4814 0 __GXInitGX
+803c514c 00000134 803c514c 0 GXCPInterruptHandler
+803c5280 0000006c 803c5280 0 GXInitFifoBase
+803c52ec 00000070 803c52ec 0 GXInitFifoPtrs
+803c535c 0000000c 803c535c 0 FETweener::setDoneCallFunc(void (*)(void *), void *)
+803c5368 00000128 803c5368 0 GXSetCPUFifo
+803c5a5c 00000008 803c5a5c 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+803c5a64 00000008 803c5a64 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+803c5a6c 00000044 803c5a6c 0 AIRegisterDMACallback
+803c5bb8 0000004c 803c5bb8 0 __GXFifoInit
+803c5c04 00000024 803c5c04 0 __GXFifoReadEnable
+803c5c28 00000024 803c5c28 0 __GXFifoReadEnable
+803c5c4c 00000034 803c5c4c 0 __GXFifoLink
+803c5c80 00000030 803c5c80 0 __GXWriteFifoIntEnable
+803c5cb0 00000030 803c5cb0 0 __GXWriteFifoIntEnable
+803c5de0 00000008 803c5de0 0 IPCGetBufferLo 	ipc.a ipcMain.o
+803c5de8 00000008 803c5de8 0 IPCGetBufferLo 	ipc.a ipcMain.o
+803c5df0 0000026c 803c5df0 0 GXSetVtxDesc
+803c605c 000000bc 803c605c 0 __GXSetVCD
+803c6118 00000124 803c6118 0 __GXCalculateVLim
+803c623c 00000038 803c623c 0 GXClearVtxDesc
+803c6274 0000025c 803c6274 0 GXSetVtxAttrFmt
+803c64d0 00000280 803c64d0 0 GXSetVtxAttrFmtv
+803c681c 00000010 803c681c 0 GXInvalidateVtxCache
+803c682c 00000280 803c682c 0 GXSetTexCoordGen2
+803c6aac 0000003c 803c6aac 0 GXSetNumTexGens
+803c6ae8 0000007c 803c6ae8 0 GXSetMisc
+803c6b7c 0000005c 803c6b7c 0 GXFlush
+803c6c0c 0000016c 803c6c0c 0 __GXAbort
+803c7000 00000080 803c7000 0 GXDrawDone
+803c7080 00000024 803c7080 0 GXPixModeSync
+803c70a4 00000014 803c70a4 0 GXPokeAlphaMode
+803c70b8 00000020 803c70b8 0 GXPokeAlphaRead
+803c70d8 00000018 803c70d8 0 GXPokeAlphaUpdate
+803c70f0 00000064 803c70f0 0 GXPokeBlendMode
+803c7154 00000018 803c7154 0 GXPokeAlphaUpdate
+803c716c 00000024 803c716c 0 GXPokeDstAlpha
+803c7190 00000018 803c7190 0 GXPokeAlphaUpdate
+803c71a8 00000020 803c71a8 0 GXPokeZMode
+803c71c8 00000044 803c71c8 0 AIRegisterDMACallback
+803c720c 00000088 803c720c 0 GXTokenInterruptHandler
+803c7294 00000044 803c7294 0 AIRegisterDMACallback
+803c72d8 00000080 803c72d8 0 GXFinishInterruptHandler
+803c7358 00000074 803c7358 0 __GXPEInit
+803c73cc 00000080 803c73cc 0 __GXSetDirtyState
+803c744c 000000d0 803c744c 0 GXBegin
+803c751c 00000088 803c751c 0 __GXSendFlushPrim
+803c75a4 00000040 803c75a4 0 GXSetLineWidth
+803c75e4 00000040 803c75e4 0 GXSetLineWidth
+803c7624 00000048 803c7624 0 GXEnableTexOffsets
+803c766c 00000028 803c766c 0 GXSetCullMode 	gx.a GXGeometry.o
+803c76b0 00000034 803c76b0 0 GXSetCoPlanar
+803c76e4 00000024 803c76e4 0 GXPixModeSync
+803c7708 00000144 803c7708 0 GXAdjustForOverscan
+803c784c 0000007c 803c784c 0 GXSetDispCopySrc
+803c78c8 0000007c 803c78c8 0 GXSetDispCopySrc
+803c7944 00000034 803c7944 0 GXSetDispCopyDst
+803c7978 00000130 803c7978 0 GXSetTexCopyDst
+803c7aa8 00000024 803c7aa8 0 GXSetDispCopyFrame2Field
+803c7acc 00000058 803c7acc 0 GXSetCopyClamp
+803c7b24 00000238 803c7b24 0 GXGetYScaleFactor
+803c7d5c 000000cc 803c7d5c 0 GXSetDispCopyYScale
+803c7e28 00000078 803c7e28 0 GXSetCopyClear
+803c7ea0 00000208 803c7ea0 0 GXSetCopyFilter
+803c80a8 00000014 803c80a8 0 GXSetDispCopyGamma
+803c80bc 00000168 803c80bc 0 GXCopyDisp
+803c8224 0000018c 803c8224 0 GXCopyTex
+803c83b0 00000038 803c83b0 0 GXClearBoundingBox
+803c83e8 0000001c 803c83e8 0 GXInitLightAttn
+803c8404 00000010 803c8404 0 nlVector3::Set(float, float, float)
+803c8414 000000d0 803c8414 0 GXInitLightDistAttn
+803c84e4 00000010 803c84e4 0 nlVector3::Set(float, float, float)
+803c8510 0000001c 803c8510 0 GXInitLightDir 	gx.a GXLight.o
+803c852c 000000e4 803c852c 0 GXInitSpecularDir
+803c8610 0000000c 803c8610 0 GXInitLightColor
+803c861c 0000000c 803c861c 0 JStudio_JStage::TAdaptor_light::TVVOutput_direction_::operator()(float, JStudio::TAdaptor *) const 	JStudio_JStage.a object-lig
+803c8628 0000007c 803c8628 0 GXLoadLightObjImm
+803c8874 0000003c 803c8874 0 GXSetNumTexGens
+803c8abc 000000c8 803c8abc 0 __GetImageTileCount
+803c8b84 0000024c 803c8b84 0 GXInitTexObj
+803c8dd0 00000048 803c8dd0 0 GXInitTexObjCI
+803c8e18 00000164 803c8e18 0 GXInitTexObjLOD
+803c8f7c 00000010 803c8f7c 0 GXInitTexObjMaxAniso
+803c8f8c 0000001c 803c8f8c 0 GXInitTexObjWrapMode
+803c8fa8 00000038 803c8fa8 0 GXInitTexObjFilter
+803c9030 00000008 803c9030 0 GXInitTexObjUserData 	gx.a GXTexture.o
+803c9038 00000008 803c9038 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+803c9040 0000000c 803c9040 0 GXGetTexObjWrapT 	gx.a GXTexture.o
+803c906c 00000008 803c906c 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
+803c9074 0000000c 803c9074 0 GXGetTexObjWrapT 	gx.a GXTexture.o
+803c9080 0000000c 803c9080 0 GXGetTexObjWrapT 	gx.a GXTexture.o
+803c908c 00000018 803c908c 0 GXGetTexObjMipMap
+803c910c 0000017c 803c910c 0 GXLoadTexObjPreLoaded
+803c9288 00000054 803c9288 0 GXLoadTexObj
+803c92dc 00000038 803c92dc 0 GXInitTlutObj
+803c9314 00000098 803c9314 0 GXLoadTlut
+803c93ac 000000f4 803c93ac 0 GXInitTexCacheRegion
+803c94a0 00000038 803c94a0 0 GXInitTlutRegion
+803c94d8 00000048 803c94d8 0 GXInvalidateTexAll
+803c9520 00000014 803c9520 0 GXSetTexRegionCallback
+803c9534 00000014 803c9534 0 GXSetTexRegionCallback
+803c9548 000000a0 803c9548 0 __SetSURegs
+803c95e8 0000017c 803c95e8 0 __GXSetSUTexRegs
+803c9764 00000354 803c9764 0 __GXSetTmemConfig
+803c9ab8 0000006c 803c9ab8 0 GXSetTevIndirect
+803c9b24 00000178 803c9b24 0 GXSetIndTexMtx
+803c9c9c 00000144 803c9c9c 0 GXSetIndTexCoordScale
+803c9de0 000000ec 803c9de0 0 GXSetIndTexOrder
+803c9ecc 00000024 803c9ecc 0 GXSetNumIndStages
+803c9ef0 00000048 803c9ef0 0 GXSetTevDirect
+803c9f38 00000004 803c9f38 0 DBClose 	NdevExi2A.a DebuggerDriver.o
+803c9f3c 00000030 803c9f3c 0 __GXSetIndirectMask
+803c9f6c 00000024 803c9f6c 0 GXPixModeSync
+803c9f90 0000008c 803c9f90 0 GXSetTevOp
+803ca01c 00000044 803ca01c 0 GXSetTevColorIn
+803ca060 00000044 803ca060 0 GXSetTevColorIn
+803ca0a4 00000068 803ca0a4 0 GXSetTevColorOp
+803ca10c 00000068 803ca10c 0 GXSetTevColorOp
+803ca29c 0000005c 803ca29c 0 GXSetTevKColorSel
+803ca2f8 0000005c 803ca2f8 0 GXSetTevKColorSel
+803ca354 00000048 803ca354 0 GXSetTevSwapMode
+803ca39c 00000080 803ca39c 0 GXSetTevSwapModeTable
+803ca41c 00000044 803ca41c 0 GXSetAlphaCompare
+803ca460 0000008c 803ca460 0 GXSetZTexture
+803ca4ec 0000019c 803ca4ec 0 GXSetTevOrder
+803ca688 00000028 803ca688 0 GXSetNumTevStages
+803ca8c4 000001b0 803ca8c4 0 GXInitFogAdjTable
+803caa74 00000124 803caa74 0 GXSetFogRangeAdj
+803cab98 00000054 803cab98 0 GXSetBlendMode
+803cabec 0000002c 803cabec 0 GXSetColorUpdate
+803cac18 0000002c 803cac18 0 GXSetColorUpdate
+803cac44 00000034 803cac44 0 GXSetZMode
+803cac78 00000034 803cac78 0 GXSetZCompLoc
+803cacac 000000d4 803cacac 0 GXSetPixelFmt
+803cad80 0000002c 803cad80 0 GXSetColorUpdate
+803cadac 0000003c 803cadac 0 GXSetDstAlpha
+803cade8 00000038 803cade8 0 GXSetFieldMask
+803cae20 00000078 803cae20 0 GXSetFieldMode
+803cb028 00000070 803cb028 0 GXCallDisplayList
+803cb098 000000a4 803cb098 0 GXSetProjection
+803cb13c 0000008c 803cb13c 0 GXSetProjectionv
+803cb1c8 00000050 803cb1c8 0 GXLoadPosMtxImm
+803cb248 00000050 803cb248 0 GXLoadNrmMtxImm
+803cb298 00000034 803cb298 0 GXSetCurrentMtx
+803cb2cc 000000b4 803cb2cc 0 GXLoadTexMtxImm
+803cb380 00000090 803cb380 0 __GXSetViewport
+803cb468 00000048 803cb468 0 GXSetViewport
+803cb4b0 00000024 803cb4b0 0 GXGetViewportv
+803cb540 00000078 803cb540 0 GXSetScissor
+803cb5b8 00000040 803cb5b8 0 GXSetScissorBoxOffset
+803cb5f8 00000028 803cb5f8 0 GXSetClipMode
+803cb620 00000084 803cb620 0 __GXSetMatrixIndex
+803cb6a4 00000848 803cb6a4 0 GXSetGPMetric
+803cbeec 00000010 803cbeec 0 GXClearGPMetric
+
+.data section layout
