@@ -2081,7 +2081,7 @@
   8015bce4 00020c 8015bce4  4 FUN_8015bce4 	Global
   8015bef0 000024 8015bef0  4 FUN_8015bef0 	Global
   8015bf14 000050 8015bf14  4 FUN_8015bf14 	Global
-  8015bf64 000398 8015bf64  4 player_flags_IsChromaCammo? 	Global
+  8015bf64 000398 8015bf64  4 player_flags_IsChromaCammo 	Global
   8015c2fc 000064 8015c2fc  4 FUN_8015c2fc 	Global
   8015c360 00006c 8015c360  4 FUN_8015c360 	Global
   8015c3cc 000068 8015c3cc  4 FUN_8015c3cc 	Global
@@ -2089,7 +2089,7 @@
   8015c44c 000018 8015c44c  4 FUN_8015c44c 	Global
   8015c464 000018 8015c464  4 FUN_8015c464 	Global
   8015c47c 000070 8015c47c  4 player_flags_SetChromaCammo 	Global
-  8015c4ec 000450 8015c4ec  4 player_flags_IsOnFire? 	Global
+  8015c4ec 000450 8015c4ec  4 player_flags_IsOnFire 	Global
   8015c93c 00032c 8015c93c  4 player_flags_SetFire 	Global
   8015cc68 000024 8015cc68  4 FUN_8015cc68 	Global
   8015cc8c 000090 8015cc8c  4 player_flags_ExtinguishFire 	Global
