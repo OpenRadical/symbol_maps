@@ -2091,7 +2091,7 @@
   8015c47c 000070 8015c47c  4 FUN_8015c47c 	Global
   8015c4ec 000450 8015c4ec  4 FUN_8015c4ec 	Global
   8015c93c 00032c 8015c93c  4 FUN_8015c93c 	Global
-  8015cc68 000024 8015cc68  4 FUN_8015cc68 	Global
+  8015cc68 000024 8015cc68  4 characterExtinguishFireByWeapon 	Global
   8015cc8c 000090 8015cc8c  4 FUN_8015cc8c 	Global
   8015cd1c 000374 8015cd1c  4 FUN_8015cd1c 	Global
   8015d090 000024 8015d090  4 LessonTickerDoneCB 	Global
