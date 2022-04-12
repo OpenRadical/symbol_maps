@@ -497,7 +497,7 @@
   80057988 00051c 80057988  4 FUN_80057988 	Global
   80057ea4 0000f4 80057ea4  4 FUN_80057ea4 	Global
   80057f98 00005c 80057f98  4 FUN_80057f98 	Global
-  80057ff4 000d08 80057ff4  4 levelData_Layout_Load 	Global
+  80057ff4 000d08 80057ff4  4 levelData_SETObjLayout_Load 	Global
   80058cfc 000ae4 80058cfc  4 FUN_80058cfc 	Global
   800597e0 000c0c 800597e0  4 FUN_800597e0 	Global
   8005a3ec 000018 8005a3ec  4 FUN_8005a3ec 	Global
@@ -1266,7 +1266,7 @@
   800dab20 000488 800dab20  4 FUN_800dab20 	Global
   800dafa8 000038 800dafa8  4 diffTevStage 	J3DTevBlock1
   800dafe0 000094 800dafe0  4 FUN_800dafe0 	Global
-  800db074 000198 800db074  4 level_GetDifficultyFlagsOnLoad 	Global
+  800db074 000198 800db074  4 SETObj_GetDifficultyFlags 	Global
   800db20c 000054 800db20c  4 FUN_800db20c 	Global
   800db260 000054 800db260  4 FUN_800db260 	Global
   800db2b4 000310 800db2b4  4 FUN_800db2b4 	Global
