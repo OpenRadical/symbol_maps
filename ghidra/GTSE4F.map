@@ -1256,7 +1256,7 @@
   800d7c90 00031c 800d7c90  4 FUN_800d7c90 	Global
   800d7fac 0002e8 800d7fac  4 FUN_800d7fac 	Global
   800d8294 000094 800d8294  4 FUN_800d8294 	Global
-  800d8328 0001a0 800d8328  4 FUN_800d8328 	Global
+  800d8328 0001a0 800d8328  4 levelData_GetAvailabilityFlags 	Global
   800d84c8 00050c 800d84c8  4 FUN_800d84c8 	Global
   800d89d4 0000c8 800d89d4  4 FUN_800d89d4 	Global
   800d8a9c 000004 800d8a9c  4 DBClose 	Global
