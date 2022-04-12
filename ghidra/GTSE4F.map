@@ -2435,7 +2435,7 @@
   8019cbdc 000510 8019cbdc  4 FUN_8019cbdc 	Global
   8019d0ec 000094 8019d0ec  4 FUN_8019d0ec 	Global
   8019d180 000480 8019d180  4 FUN_8019d180 	Global
-  8019d600 00039c 8019d600  4 FUN_8019d600 	Global
+  8019d600 00039c 8019d600  4 storyMode_Store_Difficulty 	Global
   8019d99c 00033c 8019d99c  4 FUN_8019d99c 	Global
   8019dcd8 000094 8019dcd8  4 FUN_8019dcd8 	Global
   8019dd6c 000384 8019dd6c  4 FUN_8019dd6c 	Global
