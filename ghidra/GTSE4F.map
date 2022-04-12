@@ -1266,7 +1266,7 @@
   800dab20 000488 800dab20  4 FUN_800dab20 	Global
   800dafa8 000038 800dafa8  4 diffTevStage 	J3DTevBlock1
   800dafe0 000094 800dafe0  4 FUN_800dafe0 	Global
-  800db074 000198 800db074  4 FUN_800db074 	Global
+  800db074 000198 800db074  4 level_GetDifficultyFlagsOnLoad 	Global
   800db20c 000054 800db20c  4 FUN_800db20c 	Global
   800db260 000054 800db260  4 FUN_800db260 	Global
   800db2b4 000310 800db2b4  4 FUN_800db2b4 	Global
